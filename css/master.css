@@ -2,14 +2,10 @@
 /* Styles to prettify the quiz page */
 
 
-html {
-    background: #eee;
-}
-
 body {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
-    border: 2px solid #ccc;
+
     border-top: none;
     background: #fff;
     padding: 20px;
@@ -18,20 +14,27 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: #353535;
-    line-height: 1.5em;
+    line-height: 1.4;
+}
+
+.text {
+  font-size: 1.2rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Cuprum', sans-serif;
   font-weight: bold;
+  color: #0C4569;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
+    line-height: 1.2;
     margin: 50px 0 20px;
     color: #0C4569;
 }
+
 h2 {
     font-size: 22px;
     margin: 15px 0;
@@ -152,20 +155,36 @@ ul.responses li.incorrect p span {
     margin-top: 20px;
 }
 
+
+
+
+.description {
+  width: 60%;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-
   margin-top: 50px;
 }
 
 .test {
-  padding: 7px 0;
+  width: 60%;
+  padding: 20px 0 10px;
   /* border: 1px solid red; */
 }
 
-.test a {
-  font-size: 1.3rem;
+.test-title {
+  font-size: 1.6rem;
+}
+
+.test-link {
+  display: block;
+  margin-bottom: 7px;
+
+  white-space: nowrap; /* Отменяем перенос текста */
+  overflow: hidden; /* Обрезаем содержимое */
+  text-overflow: ellipsis; /* Многоточие */
 }
