@@ -1,28 +1,35 @@
 /* QUIZ STYLES */
 /* Styles to prettify the quiz page */
 
+
 html {
     background: #eee;
 }
 
 body {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
     border: 2px solid #ccc;
     border-top: none;
     background: #fff;
     padding: 20px;
-    font-family: Trebuchet, Arial,Helvetica,sans-serif;
+    padding-left: 40px;
+    font-family: 'Cuprum', sans-serif;
     font-size: 16px;
+    font-weight: 400;
     color: #353535;
     line-height: 1.5em;
 }
 
-h1,h2,h3,h4,h5,h6 {font-weight: bold;}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Cuprum', sans-serif;
+  font-weight: bold;
+}
 
 h1 {
-    font-size: 26px;
-    margin: 0 0 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 50px 0 20px;
     color: #0C4569;
 }
 h2 {
@@ -143,4 +150,22 @@ ul.responses li.incorrect p span {
 .quizResultsCopy {
     clear: both;
     margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  margin-top: 50px;
+}
+
+.test {
+  padding: 7px 0;
+  /* border: 1px solid red; */
+}
+
+.test a {
+  font-size: 1.3rem;
 }
