@@ -764,39 +764,497 @@ $(function () {
         "results": "<p>Этот тест был под силу не каждому. Ты молодец, приходи еще.</p>"
     },
     "questions": [
-        { // Question 1 - Multiple Choice, Single True Answer
-            "q": "Под каким номером идет буква ww в русском алфавите?",
-            "a": [
-                {"option": "8",      "correct": true},
-                {"option": "14",     "correct": false},
-                {"option": "1",      "correct": false},
-                {"option": "23",     "correct": false}
-            ],
-            "correct": "<p><span>Верно!</span> Буква А — это первая буква в алфавите!</p>",
-            "incorrect": "<p><span>Неверно.</span> Ты вообще ходил в детский сад?</p>"
+      {
+          "q": "К ВНУТРЕННЕЙ ПОВЕРХНОСТИ БОЛЬШОЙ ЯГОДИЧНОЙ МЫШЦЫ В ЯГОДИЧНОЙ ОБЛАСТИ НЕПОСРЕДСТВЕННО ПРИЛЕЖИТ",
+          "a": [
+              {"option": "1) средняя ягодичная мышца",      "correct": false},
+              {"option": "2) седалищный нерв",     "correct": false},
+              {"option": "3) грушевидная мышца",     "correct": false},
+              {"option": "4) глубокий листок собственной фасции ",     "correct": true},
+              {"option": "5) поверхностный листок собственной фасции",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "К СРЕДНЕЙ ЯГОДИЧНОЙ МЫШЦЕ В ЯГОДИЧНОЙ ОБЛАСТИ СНИЗУ ПРИЛЕЖИТ МЫШЦА",
+          "a": [
+              {"option": "1) наружная запирательная",     "correct": false},
+              {"option": "2) грушевидная",     "correct": true},
+              {"option": "3) внутренняя запирательная",     "correct": false},
+              {"option": "4) квадратная",     "correct": false},
+              {"option": "5) близнецовая верхняя",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ПОВЕРХНОСТНОЕ ЯГОДИЧНОЕ КЛЕТЧАТОЧНОЕ ПРОСТРАНСТВО РАСПОЛОЖЕНО МЕЖДУ",
+          "a": [
+              {"option": "1) поверхностным и глубоким листками ягодичной фасции",      "correct": false},
+              {"option": "2) кожей и поверхностным листком ягодичной фасции",     "correct": false},
+              {"option": "3) большой ягодичной мышцей и поверхностным листком собственной фасции",      "correct": false},
+              {"option": "4) большой ягодичной мышцей и глубоким листком собственной фасции",     "correct": false},
+              {"option": "5) большой ягодичной и грушевидной мышцами",     "correct": true}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ГЛУБОКАЯ КЛЕТЧАТКА ЯГОДИЧНОЙ ОБЛАСТИ РАСПОЛОЖЕНА МЕЖДУ МЫШЦАМИ",
+          "a": [
+              {"option": "1) большой и средней ягодичными",      "correct": false},
+              {"option": "2) грушевидной и внутренней запирательной",     "correct": false},
+              {"option": "3) внутренней и наружной запирательными",      "correct": true},
+              {"option": "4) внутренней запирательной и квадратной",     "correct": false},
+              {"option": "5) ни один из вариантов",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ЧЕРЕЗ БОЛЬШОЕ СЕДАЛИЩНОЕ ОТВЕРСТИЕ МАЛОГО ТАЗА ПРОХОДИТ МЫШЦА",
+          "a": [
+              {"option": "1) наружная запирательная", "correct": false},
+              {"option": "2) внутренняя запирательная", "correct": false},
+              {"option": "3) грушевидная", "correct": true},
+              {"option": "4) средняя ягодичная", "correct": false},
+              {"option": "5) малая ягодичная", "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ЧЕРЕЗ МАЛОЕ СЕДАЛИЩНОЕ ОТВЕРСТИЕ МАЛОГО ТАЗА ПРОХОДИТ МЫШЦА",
+          "a": [
+              {"option": "1) внутренняя запирательная",      "correct": true},
+              {"option": "2) наружная запирательная",     "correct": false},
+              {"option": "3) грушевидная", "correct": false},
+              {"option": "4) средняя ягодичная", "correct": false},
+              {"option": "5) пояснично-подвздошная", "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ЧЕРЕЗ НАДГРУШЕВИДНОЕ ОТВЕРСТИЕ В ЯГОДИЧНОЙ ОБЛАСТИ ПРОХОДИТ",
+          "a": [
+              {"option": "1) седалищный нерв", "correct": false},
+              {"option": "2) срамной нерв", "correct": false},
+              {"option": "3) внутренняя срамная артерия",      "correct": false},
+              {"option": "4) верхняя ягодичная артерия",     "correct": true},
+              {"option": "5) нижняя ягодичная артерия",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "НАИБОЛЕЕ ЛАТЕРАЛЬНО В ПОДГРУШЕВИДНОМ ОТВЕРСТИИ ЯГОДИЧНОЙ ОБЛАСТИ РАСПОЛАГАЕТСЯ",
+          "a": [
+              {"option": "1) внутренняя срамная вена",      "correct": false},
+              {"option": "2) внутренняя срамная артерия",     "correct": false},
+              {"option": "3) срамной нерв",      "correct": false},
+              {"option": "4) нижний ягодичный нерв",     "correct": false},
+              {"option": "5) седалищный нерв",     "correct": true }
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "НАИБОЛЕЕ МЕДИАЛЬНО В ПОДГРУШЕВИДНОМ ОТВЕРСТИИ ЯГОДИЧНОЙ ОБЛАСТИ РАСПОЛАГАЕТСЯ НЕРВ",
+          "a": [
+              {"option": "1) срамной", "correct": true},
+              {"option": "2) верхний ягодичный", "correct": false},
+              {"option": "3) нижний ягодичный", "correct": false},
+              {"option": "4) седалищный", "correct": false},
+              {"option": "5) задний кожный бедренный", "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "КЛЕТЧАТКА ПОВЕРХНОСТНОГО ЯГОДИЧНОГО ПРОСТРАНСТВА СВЯЗАНА С ЗАДНИМ ЛОЖЕМ БЕДРА ПО ХОДУ",
+          "a": [
+              {"option": "1) запирательной артерии",      "correct": false},
+              {"option": "2) седалищного нерва",     "correct": true},
+              {"option": "3) бедренного нерва",      "correct": false},
+              {"option": "4) верхней ягодичной артерии",     "correct": false},
+              {"option": "5) срамного нерва",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
         },
-        { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "Чем из перечисленного ты обычно завтракаешь?",
-            "a": [
-                {"option": "Бекон и яйца",                "correct": true},
-                {"option": "Фрукты, хлопушки и йогурт",   "correct": false},
-                {"option": "Остатки пиццы",               "correct": false},
-                {"option": "Тосты и молоко",              "correct": true}
-            ],
-            "select_any": true,
-            "correct": "<p><span>Верно!</span> С твоим здоровьечком, пожалуй, все в порядке.</p>",
-            "incorrect": "<p><span>Неверно.</span> Тебе нужно перейти на пп, мой друг.</p>"
+      {
+          "q": "КЛЕТЧАТКА ПОВЕРХНОСТНОГО ЯГОДИЧНОГО ПРОСТРАНСТВА СВЯЗАНА С ЛОЖЕМ ПРИВОДЯЩИХ МЫШЦ БЕДРА ПО ХОДУ",
+          "a": [
+              {"option": "1) седалищного нерва",      "correct": false},
+              {"option": "2) сухожилия внутренней запирательной мышцы",     "correct": false},
+              {"option": "3) сухожилия наружной запирательной мышцы",      "correct": true},
+              {"option": "4) бедренного нерва",     "correct": false},
+              {"option": "5) запирательных артерии и вены",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "КЛЕТЧАТКА ПОВЕРХНОСТНОГО ЯГОДИЧНОГО ПРОСТРАНСТВА СВЯЗАНА С КЛЕТЧАТКОЙ СЕДАЛИЩНО-ПРЯМОКИШЕЧНОЙ ЯМКИ ПО ХОДУ ",
+          "a": [
+              {"option": "1) внутренних срамных сосудов",      "correct": true},
+              {"option": "2) седалищного нерва",     "correct": false},
+              {"option": "3) запирательных сосудов",     "correct": false},
+              {"option": "4) бедренной вены",     "correct": false},
+              {"option": "5) мышечной лакуны",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "КЛЕТЧАТКА ПОВЕРХНОСТНОГО ЯГОДИЧНОГО ПРОСТРАНСТВА СВЯЗАНА С ПРИСТЕНОЧНОЙ КЛЕТЧАТКОЙ МАЛОГО ТАЗА ПО ХОДУ ",
+          "a": [
+              {"option": "1) седалищного нерва",      "correct": true},
+              {"option": "2) запирательных сосудов",     "correct": false},
+              {"option": "3) подвздошно-поясничной мышцы",     "correct": false},
+              {"option": "4) сухожилия наружной запирательной мышцы",     "correct": false},
+              {"option": "5) бедренного канала",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "КЛЕТЧАТКА ПОВЕРХНОСТНОГО ЯГОДИЧНОГО ПРОСТРАНСТВА СВЯЗАНА С ПРИСТЕНОЧНОЙ КЛЕТЧАТКОЙ МАЛОГО ТАЗА ПО ХОДУ МЫШЦЫ ",
+          "a": [
+              {"option": "1) малой ягодичной",      "correct": false},
+              {"option": "2) большой ягодичной",     "correct": false},
+              {"option": "3) подвздошно-поясничной",    "correct": false},
+              {"option": "4) грушевидной",     "correct": true},
+              {"option": "5) наружной запирательной",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
         },
-        { // Question 3
-            "q": "Сколько сантиметров осадков выпадает в Красноярске в год?",
-            "a": [
-                {"option": "149",    "correct": true},
-                {"option": "32",     "correct": false},
-                {"option": "3",      "correct": false},
-                {"option": "1291",   "correct": false}
-            ],
-            "correct": "<p><span>Верно!</span> Не знал, что ты знаешь это! Отлично!</p>",
-            "incorrect": "<p><span>Неверно.</span> Прости, но ты лузер. Любой первоклассник ответит.</p>"
-        }
+      {
+          "q": "ГЛУБОКАЯ ФЛЕГМОНА ЯГОДИЧНОЙ ОБЛАСТИ ЧАЩЕ ВСЕГО ЛОКАЛИЗУЕТСЯ МЕЖДУ",
+          "a": [
+              {"option": "1) большой, средней и малой ягодичными мышцами",      "correct": false},
+              {"option": "2) кожей и поверхностной ягодичной фасцией",     "correct": false},
+              {"option": "3) средней и большой ягодичными мышцами",      "correct": true},
+              {"option": "4) поверхностной и собственной фасциями",     "correct": false},
+              {"option": "5) наружным и внутренними листками собственной фасции большой ягодичной мышцы",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "К ТАЗОБЕДРЕННОМУ СУСТАВУ СПЕРЕДИ НЕПОСРЕДСТВЕННО ПРИЛЕЖИТ МЫШЦА",
+          "a": [
+              {"option": "1) грушевидная",      "correct": false},
+              {"option": "2) наружная запирательная",     "correct": false},
+              {"option": "3) подвздошно-поясничная",      "correct": true},
+              {"option": "4) квадратная",     "correct": false},
+              {"option": "5) малая ягодичная",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "НАРУЖНАЯ ЧЕТВЕРТЬ ШЕЙКИ ТАЗОБЕДРЕННОГО СУСТАВА НЕ ПРИКРЫТА КАПСУЛОЙ",
+          "a": [
+              {"option": "1) спереди",      "correct": false},
+              {"option": "2) сзади",     "correct": true},
+              {"option": "3) сверху",      "correct": false},
+              {"option": "4) снизу",     "correct": false},
+              {"option": "5) снизу и спереди",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "САМАЯ МОЩНАЯ СВЯЗКА ТАЗОБЕДРЕННОГО СУСТАВА ",
+          "a": [
+              {"option": "1) лобково-бедренная",      "correct": false},
+              {"option": "2) седалищно-бедренная",     "correct": false},
+              {"option": "3) связка головки бедренной кости",      "correct": false},
+              {"option": "4) подвздошно-бедренная",     "correct": true},
+              {"option": "5) крестцово-бугорная",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ВНУТРИСУСТАВНОЙ СВЯЗКОЙ ТАЗОБЕДРЕННОГО СУСТАВА ЯВЛЯЕТСЯ",
+          "a": [
+              {"option": "1) подвздошно-бедренная ",      "correct": false},
+              {"option": "2) круговая зона",     "correct": false},
+              {"option": "3) поперечная связка вертлужной впадины",      "correct": true},
+              {"option": "4) паховая",     "correct": false},
+              {"option": "5) крестцово-остистая",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ПРИ ГНОЙНОМ ПОРАЖЕНИИ ТАЗОБЕДРЕННОГО СУСТАВА ЭКССУДАТ МОЖЕТ РАСПРОСТРАНИТЬСЯ В ЯГОДИЧНУЮ ОБЛАСТЬ ПО ХОДУ",
+          "a": [
+              {"option": "1) средней ягодичной мышцы",      "correct": false},
+              {"option": "2) седалищного нерва",     "correct": false},
+              {"option": "3) подвздошно-поясничной мышцы",      "correct": false},
+              {"option": "4) наружной запирательной мышцы",     "correct": true},
+              {"option": "5) запирательного канала",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+        },
+      {
+          "q": "ПРИ ГНОЙНОМ ПОРАЖЕНИИ ТАЗОБЕДРЕННОГО СУСТАВА ЭКССУДАТ МОЖЕТ РАСПРОСТРАНИТЬСЯ В ПОЛОСТЬ МАЛОГО ТАЗА ПО ХОДУ ",
+          "a": [
+              {"option": "1) наружной запирательной мышцы",      "correct": true},
+              {"option": "2) бедренного канала",     "correct": false},
+              {"option": "3) бедренной артерии",      "correct": false},
+              {"option": "4) мышечной лакуны",     "correct": false},
+              {"option": "5) внутренней запирательной мышцы",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ЛАТЕРАЛЬНОЙ ГРАНИЦЕЙ БЕДРЕННОГО ТРЕУГОЛЬНИКА ЯВЛЯЕТСЯ",
+          "a": [
+              {"option": "1) паховая связка",      "correct": false},
+              {"option": "2) портняжная мышца",     "correct": true},
+              {"option": "3) длинная приводящая мышца",      "correct": false},
+              {"option": "4) пояснично-подвздошная мышца",     "correct": false},
+              {"option": "5) гребешковая мышца",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "БЕДРЕННАЯ АРТЕРИЯ В БЕДРЕННОМ ТРЕУГОЛЬНИКЕ РАСПОЛОЖЕНА ПО ОТНОШЕНИЮ К БЕДРЕННОМУ НЕРВУ ",
+          "a": [
+              {"option": "1) спереди",      "correct": false},
+              {"option": "2) снизу",     "correct": false},
+              {"option": "3) латерально",      "correct": false},
+              {"option": "4) медиально",     "correct": true},
+              {"option": "5) сзади",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "БЕДРЕННАЯ ВЕНА В БЕДРЕННОМ ТРЕУГОЛЬНИКЕ РАСПОЛОЖЕНА ПО ОТНОШЕНИЮ К БЕДРЕННОЙ АРТЕРИИ",
+          "a": [
+              {"option": "1) спереди",      "correct": false},
+              {"option": "2) сзади",     "correct": false},
+              {"option": "3) медиально",      "correct": true},
+              {"option": "4)  латерально",     "correct": false},
+              {"option": "5) спереди и латерально",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "БЕДРЕННАЯ ВЕНА В БЕДРЕННОМ ТРЕУГОЛЬНИКЕ РАСПОЛОЖЕНА ПО ОТНОШЕНИЮ К БЕДРЕННОЙ АРТЕРИИ",
+          "a": [
+              {"option": "1) латерально",      "correct": true},
+              {"option": "2) медиально",     "correct": false},
+              {"option": "3) сзади",      "correct": false },
+              {"option": "4) спереди",     "correct": false},
+              {"option": "5) спереди и медиально",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "БЕДРЕННАЯ АРТЕРИЯ В БЕДРЕННОМ ТРЕУГОЛЬНИКЕ ЗАКРЫТА СПЕРЕДИ НЕПОСРЕДСТВЕННО",
+          "a": [
+              {"option": "1) бедренным нервом",      "correct": false},
+              {"option": "2) бедренной веной",     "correct": false},
+              {"option": "3) глубоким листком широкой фасции",      "correct": false },
+              {"option": "4) поверхностным листком широкой фасции",     "correct": true},
+              {"option": "5) спереди и медиально",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "БЕДРЕННЫЙ НЕРВ В БЕДРЕННОМ ТРЕУГОЛЬНИКЕ НАХОДИТСЯ ВО ВЛАГАЛИЩЕ МЫШЦЫ ",
+          "a": [
+              {"option": "1) портняжной",      "correct": false},
+              {"option": "2) прямой",     "correct": false},
+              {"option": "3) пояснично-подвздошной",      "correct": true},
+              {"option": "4) гребешковой",     "correct": false},
+              {"option": "5) короткой приводящей",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "БЕДРЕННЫЙ НЕРВ ВЫХОДИТ ИЗ ПОДВЗДОШНОЙ ЯМКИ НА БЕДРО ЧЕРЕЗ ",
+          "a": [
+              {"option": "1) запирательное отверстие",      "correct": false},
+              {"option": "2) надгрушевидное отверстие",     "correct": false},
+              {"option": "3) подгрушевидное отверстие",      "correct": false},
+              {"option": "4) мышечную лакуну",     "correct": true},
+              {"option": "5) сосудистую лакуну ",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "МЫШЕЧНУЮ ЛАКУНУ СПЕРЕДИ ОБРАЗУЕТ",
+          "a": [
+              {"option": "1) широкая фасция бедра",      "correct": false},
+              {"option": "2) паховая связка",     "correct": true},
+              {"option": "3) подвздошная кость",      "correct": false},
+              {"option": "4) подвздошно-гребешковая дуга",     "correct": false},
+              {"option": "5) бедренный нерв",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "МЫШЕЧНУЮ ЛАКУНУ СЗАДИ И ЛАТЕРАЛЬНО ОБРАЗУЕТ",
+          "a": [
+              {"option": "1) широкая фасция бедра",      "correct": false},
+              {"option": "2) гребенчатая фасция",     "correct": false},
+              {"option": "3) подвздошная кость",      "correct": true},
+              {"option": "4) подвздошно-поясничная мышца",     "correct": false},
+              {"option": "5) влагалище бедренной вены",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "СОСУДИСТУЮ ЛАКУНУ ЛАТЕРАЛЬНО ОБРАЗУЕТ",
+          "a": [
+              {"option": "1) широкая фасция бедра",      "correct": false},
+              {"option": "2) гребенчатая фасция",     "correct": false},
+              {"option": "3) подвздошная кость",      "correct": false},
+              {"option": "4) подвздошно-гребешковая дуга",     "correct": true},
+              {"option": "5) лакунарная связка",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "СОСУДИСТУЮ ЛАКУНУ МЕДИАЛЬНО ОБРАЗУЕТ",
+          "a": [
+              {"option": "1) широкая фасция бедра",      "correct": false},
+              {"option": "2) гребенчатая фасция",     "correct": false},
+              {"option": "3) подвздошная кость",      "correct": false},
+              {"option": "4) подвздошно-гребешковая дуга",     "correct": false},
+              {"option": "5) лакунарная связка",     "correct": true}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "БЕДРЕННАЯ ВЕНА В СОСУДИСТОЙ ЛАКУНЕ БЕДРА НАХОДИТСЯ ПО ОТНОШЕНИЮ К БЕДРЕННОЙ АРТЕРИИ",
+          "a": [
+              {"option": "1) сзади",      "correct": false},
+              {"option": "2) латерально",     "correct": false},
+              {"option": "3) спереди ",      "correct": false},
+              {"option": "4) спереди и латерально",     "correct": false},
+              {"option": "5) медиально",     "correct": true}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ПЕРЕДНЕЕ ФАСЦИАЛЬНО-МЫШЕЧНОЕ ЛОЖЕ БЕДРА СООБЩАЕТСЯ С ПОЛОСТЬЮ МАЛОГО ТАЗА ПО ХОДУ",
+          "a": [
+              {"option": "1) запирательного канала",      "correct": false},
+              {"option": "2) бедренных артерии и вены",     "correct": true },
+              {"option": "3) пахового канала",      "correct": false},
+              {"option": "4) канала приводящих мышц ",     "correct": false},
+              {"option": "5) седалищного нерва",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+        },
+      {
+          "q": "ЧЕТЫРЕХГЛАВУЮ МЫШЦУ БЕДРА ИННЕРАВИРУЕТ",
+          "a": [
+              {"option": "1) бедренный нерв",      "correct": true},
+              {"option": "2) седалищный нерв",     "correct": false},
+              {"option": "3) запирательный нерв",      "correct": false},
+              {"option": "4) половой нерв",     "correct": false},
+              {"option": "5) нижний ягодичный нерв",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ПЕРЕДНЕВЕРХНЕЙ ГРАНИЦЕЙ ВНУТРЕННЕГО КОЛЬЦА БЕДРЕННОГО КАНАЛА ЯВЛЯЕТСЯ",
+          "a": [
+              {"option": "1) бедренная артерия",      "correct": false},
+              {"option": "2) бедренная вена",     "correct": false},
+              {"option": "3) подвздошно-гребешковая фасция",      "correct": false},
+              {"option": "4) паховая связка",     "correct": true },
+              {"option": "5) лакунарная связка",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "МЕДИАЛЬНОЙ ГРАНИЦЕЙ ВНУТРЕННЕГО КОЛЬЦА БЕДРЕННОГО КАНАЛА ЯВЛЯЕТСЯ ",
+          "a": [
+              {"option": "1) паховая связка",      "correct": false},
+              {"option": "2) влагалище бедренной вены",     "correct": false},
+              {"option": "3) надкостница лобковой кости",      "correct": false},
+              {"option": "4) лакунарная связка",     "correct": true },
+              {"option": "5) верхний рог широкой фасции бедра",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ЗАДНЕНИЖНЕЙ ГРАНИЦЕЙ ВНУТРЕННЕГО КОЛЬЦА БЕДРЕННОГО КАНАЛА ЯВЛЯЕТСЯ",
+          "a": [
+              {"option": "1) паховая связка",      "correct": false},
+              {"option": "2) влагалище бедренной вены",     "correct": false},
+              {"option": "3) надкостница лобковой кости",      "correct": true },
+              {"option": "4) глубокий листок широкой фасции бедра",     "correct ": false },
+              {"option": "5) верхний рог широкой фасции бедра",     "correct": false}
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ЛАТЕРАЛЬНОЙ СТЕНКОЙ БЕДРЕННОГО КАНАЛА ЯВЛЯЕТСЯ",
+          "a": [
+              {"option": "1) верхний рог широкой фасции бедра ",      "correct": false},
+              {"option": "2) нижний рог широкой фасции бедра ",     "correct": false},
+              {"option": "3) паховая связка",      "correct": false },
+              {"option": "4) подвздошно-поясничная мышца",     "correct ": false },
+              {"option": "5) влагалище бедренной вены",     "correct": true }
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ДЛИНА БЕДРЕННОГО КАНАЛА ЗАВИСИТ ОТ ЕГО СТЕНКИ ",
+          "a": [
+              {"option": "1) верхней",      "correct": false},
+              {"option": "2) передней ",     "correct": true },
+              {"option": "3) медиальной",      "correct": false },
+              {"option": "4) латеральной",     "correct ": false },
+              {"option": "5) задней",     "correct": false }
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      },
+      {
+          "q": "ЗАДНЕМЕДИАЛЬНОЙ СТЕНКОЙ БЕДРЕННОГО КАНАЛА ЯВЛЯЕТСЯ",
+          "a": [
+              {"option": "1) 105 вопрверхней",      "correct": false},
+              {"option": "2) передней ",     "correct": true },
+              {"option": "3) медиальной",      "correct": false },
+              {"option": "4) латеральной",     "correct ": false },
+              {"option": "5) задней",     "correct": false }
+          ],
+          "correct": "<p><span>Верно!</span></p>",
+          "incorrect": "<p><span>Неверно.</span></p>"
+      }
     ]}});
 });
