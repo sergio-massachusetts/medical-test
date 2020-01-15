@@ -3858,4 +3858,3011 @@ $(function () {
             "incorrect": "<p><span>Неверно.</span></p>"
 }
     ]}});
+
+    // $('#slickQuiz5').slickQuiz({json: {"info": {
+    //     "name":    "Тестовые задания по теме №5",
+    //     "main":    "<p>Верхняя конечность: локтевой сустав, предплечье, лучезапястный сустав, кисть. Сосудистый шов</p>",
+    //     "results": "<p>Этот тест был под силу не каждому. Ты молодец, приходи еще.</p>"
+    // },
+    // "questions": [
+    //
+    // ]}});
+
+    $('#slickQuiz9').slickQuiz({json: {"info": {
+        "name":    "Тестовые задания по теме №9",
+        "main":    "<p>Грудная клетка. Средостение</p>",
+        "results": "<p>Этот тест был под силу не каждому. Ты молодец, приходи еще.</p>"
+    },
+    "questions": [
+      {
+            "q": "Капсула молочной железы образована",
+            "a": [
+                {"option": "1) собственной фасцией груди",      "correct": false},
+                {"option": "2) поверхностной пластинкой собственной фасции груди",     "correct": false},
+                {"option": "3) поверхностной фасцией груди",      "correct": true},
+                {"option": "4) глубокой пластинкой собственной фасции груди",     "correct": false},
+	{"option": "5) кожей и подкожной жировой клетчаткой груди",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Основной лимфоотток от  верхнего  квадранта молочной железы осуществляется в лимфатические узлы",
+            "a": [
+                {"option": "1) под большую грудную мышцу",      "correct": false},
+                {"option": "2) парастернальные",     "correct": false},
+                {"option": "3) загрудинные",      "correct": false},
+                {"option": "4) подмышечные",     "correct": false},
+	{"option": "5) подключичные и надключичные",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Основной  лимфоотток от молочной железы (4/5 всего объема лимфы) осуществляется в лимфатические узлы",
+            "a": [
+                {"option": "1) подключичные",      "correct": false},
+                {"option": "2) надключичные",     "correct": false},
+                {"option": "3) парастернальные",      "correct": false},
+                {"option": "4) подмышечные",     "correct": true},
+	{"option": "5) субпекторальной клетчатки",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Поверхностное  субпекторальное клетчаточное пространство расположено между",
+            "a": [
+                {"option": "1) большой грудной мышцей и глубоким листком ее фасции",      "correct": false},
+                {"option": "2) глубоким листком фасции большой грудной мышцы и ключично-грудной фасцией",     "correct": true},
+                {"option": "3) большой грудной и передней зубчатой мышцами",      "correct": false},
+                {"option": "4) малой грудной и межреберными мышцами",     "correct": false},
+	{"option": "5) большой грудной и наружными межреберными мышцами",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Глубокое  субпекторальное клетчаточное пространство расположено между",
+            "a": [
+                {"option": "1) большой и малой грудными мышцами",      "correct": false},
+                {"option": "2) поверхностным и глубоким листками собственной фасции груди",     "correct": false},
+                {"option": "3) ключично-грудной фасцией и ребрами",      "correct": true},
+                {"option": "4) малой грудной и передней зубчатой мышцами",     "correct": false},
+	{"option": "5) большой грудной и межреберными мышцами",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Межреберный сосудисто-нервный пучок расположен",
+            "a": [
+                {"option": "1) по верхнему краю ребра",      "correct": false},
+                {"option": "2) на передней поверхности ребра",     "correct": false},
+                {"option": "3) на задней поверхности ребра",      "correct": false},
+                {"option": "4) под нижним краем ребра",     "correct": true},
+	{"option": "5) между ребрами",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Межреберный сосудисто-нервный пучок расположен между",
+            "a": [
+                {"option": "1) большой и малой грудными мышцами",      "correct": false},
+                {"option": "2) малой грудной и наружной межреберными мышцами",     "correct": false},
+                {"option": "3) внутренними межреберными мышцами и внутригрудной фасцией",      "correct": false},
+                {"option": "4) наружной и внутренней межреберными мышцами",     "correct": true},
+	{"option": "5) внутригрудной фасцией и париетальным листком плевры",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "К межреберному нерву  сверху  прилежИт",
+            "a": [
+                {"option": "1) межреберная вена",      "correct": false},
+                {"option": "2) наружная грудная вена",     "correct": false},
+                {"option": "3) межреберная артерия",      "correct": true},
+                {"option": "4) тыльная вена грудной клетки",     "correct": false},
+	{"option": "5) внутренняя грудная артерия",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Отток лимфы от грудной стенки  справа  осуществляется, главным образом, в",
+            "a": [
+                {"option": "1) правый яремный ствол",      "correct": false},
+                {"option": "2) правый лимфатический проток",     "correct": true},
+                {"option": "3) грудной лимфатический проток",      "correct": false},
+                {"option": "4) левый яремный лимфатический ствол",     "correct": false},
+	{"option": "5) левый подключичный ствол",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Ретростернальное  клетчаточное пространство расположено между",
+            "a": [
+                {"option": "1) внутренними межреберными мышцами и грудиной",      "correct": false},
+                {"option": "2) собственной фасцией груди и грудиной",     "correct": false},
+                {"option": "3) внутригрудной фасцией и грудиной",      "correct": true},
+                {"option": "4) париетальной плеврой и грудиной",     "correct": false},
+	{"option": "5) надкостницей и грудиной",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При экссудативных плевритах жидкость скапливается, как правило, в плевральном синусе",
+            "a": [
+                {"option": "1) реберно-средостенном",      "correct": false},
+                {"option": "2) позвоночно-средостенном",     "correct": false},
+                {"option": "3) диафрагмально-средостенном",      "correct": false},
+                {"option": "4) реберно-диафрагмальном",     "correct": true},
+	{"option": "5) во всех синусах",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Правая и левая медиастинальные плевры подходят близко друг к другу и соприкасаются у грудины на уровне реберных хрящей",
+            "a": [
+                {"option": "1) II-III",      "correct": false},
+                {"option": "2) II-IV",     "correct": true},
+                {"option": "3) IV-V",      "correct": false},
+                {"option": "4) V-VI",     "correct": false},
+	{"option": "5) I-II",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Щель  Ларрея  в диафрагме расположена между",
+            "a": [
+                {"option": "1) поясничной и реберной частями справа",      "correct": false},
+                {"option": "2) грудинной и реберной частями слева",     "correct": false},
+                {"option": "3) реберной и грудинной частями слева",      "correct": true},
+                {"option": "4) реберной и грудинной частями справа",     "correct": false},
+	{"option": "5) медиальной и средней ножками диафрагмы",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Щель  Морганьи  в диафрагме расположена между",
+            "a": [
+                {"option": "1) грудинной и реберной частями справа",      "correct": false},
+                {"option": "2) поясничной и реберной частями слева",     "correct": false},
+                {"option": "3) реберной и грудинной частями слева",      "correct": false},
+                {"option": "4) реберной и грудинной частями справа",     "correct": true},
+	{"option": "5) медиальной и промежуточной ножками поясничной части",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "В слабых местах диафрагмы отсутствуют мышечные волокна и соприкасаются листки",
+            "a": [
+                {"option": "1) париетальной плевры и брюшины",      "correct": false},
+                {"option": "2) подбрюшинной и подплевральной клетчаток",     "correct": false},
+                {"option": "3) внутригрудной и внутрибрюшной фасций",      "correct": true},
+                {"option": "4) внутригрудной фасции и брюшины",     "correct": false},
+	{"option": "5) париетальной плевры и внутрибрюшной фасции",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Через отверстие между  медиальной и средней  ножками поясничной части диафрагмы слева проходят",
+            "a": [
+                {"option": "1) аорта",      "correct": false},
+                {"option": "2) блуждающий нерв",     "correct": false},
+                {"option": "3) непарная вена",      "correct": false},
+                {"option": "4) полунепарная вена, чревные нервы",     "correct": true},
+	{"option": "5) симпатический ствол",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Через отверстия между  средней и ЛАТЕРАЛЬНОЙ  ножками поясничной части диафрагмы проходят",
+            "a": [
+                {"option": "1) симпатический ствол",      "correct": true},
+                {"option": "2) внутренностные нервы",     "correct": false},
+                {"option": "3) непарная и полунепарная вены",      "correct": false},
+                {"option": "4) блуждающий нерв",     "correct": false},
+	{"option": "5) грудной лимфатический проток",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Через диафрагму  блуждающие  нервы проходят вместе с",
+            "a": [
+                {"option": "1) аортой",      "correct": false},
+                {"option": "2) грудным лимфатическим протоком",     "correct": false},
+                {"option": "3) симпатическим стволом",      "correct": false},
+                {"option": "4) непарной и полунепарной венами",     "correct": false},
+	{"option": "5) пищеводом",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Грудной лимфатический проток в аортальном отверстии диафрагмы лежит по отношению к аорте",
+            "a": [
+                {"option": "1) справа",      "correct": false},
+                {"option": "2) слева",     "correct": false},
+                {"option": "3) справа и сзади",      "correct": true},
+                {"option": "4) спереди",     "correct": false},
+	{"option": "5) слева и сзади",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "В  правом  легком имеются междолевые борозды в количестве",
+            "a": [
+                {"option": "1) одной",      "correct": false},
+                {"option": "2) двух",     "correct": true},
+                {"option": "3) трех",      "correct": false},
+                {"option": "4) четырех",     "correct": false},
+	{"option": "5) борозды отсутствуют",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Левое  легкое состоит из долей в количестве",
+            "a": [
+                {"option": "1) одной",      "correct": false},
+                {"option": "2) двух",     "correct": true},
+                {"option": "3) трех",      "correct": false},
+                {"option": "4) четырех",     "correct": false},
+	{"option": "5) пяти",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Каждое легкое состоит из сегментов в количестве",
+            "a": [
+                {"option": "1) 8",      "correct": false},
+                {"option": "2) 9-10",     "correct": true},
+                {"option": "3) 11",      "correct": false},
+                {"option": "4) 12",     "correct": false},
+	{"option": "5) 7-8",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Бифуркация трахеи у взрослых спереди проецируется на  межреберье",
+            "a": [
+                {"option": "1) I",      "correct": false},
+                {"option": "2) II-III",     "correct": true},
+                {"option": "3) IV",      "correct": false},
+                {"option": "4) IV-V",     "correct": false},
+	{"option": "5) V",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Правый бронх по сравнению с левым бронхом по размерам",
+            "a": [
+                {"option": "1) длинее и шире",      "correct": false},
+                {"option": "2) длиннее и уже",     "correct": false},
+                {"option": "3) короче и шире",      "correct": true},
+                {"option": "4) короче и уже",     "correct": false},
+	{"option": "5) одинаковые",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "К бронху в воротах  правого  легкого  сверху  прилежит",
+            "a": [
+                {"option": "1) легочная артерия",      "correct": false},
+                {"option": "2) легочная вена",     "correct": false},
+                {"option": "3) трахея",      "correct": false},
+                {"option": "4) непарная вена",     "correct": true},
+	{"option": "5) дуга аорты",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "В воротах  левого  легкого легочная артерия по отношению к ГЛАВНОМУ бронху располагается",
+            "a": [
+                {"option": "1) спереди",      "correct": false},
+                {"option": "2) сзади",     "correct": false},
+                {"option": "3) сверху",      "correct": true},
+                {"option": "4) снизу",     "correct": false},
+	{"option": "5) слева",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "В воротах  правого  легкого легочная артерия по отношению к главному бронху располагается",
+            "a": [
+                {"option": "1) спереди и сверху",      "correct": false},
+                {"option": "2) сзади и сверху",     "correct": false},
+                {"option": "3) снизу и спереди",      "correct": true},
+                {"option": "4) сверху",     "correct": false},
+	{"option": "5) слева",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Диафрагмальные  нервы по отношению к корням обоих легких расположены",
+            "a": [
+                {"option": "1) сзади",      "correct": false},
+                {"option": "2) спереди",     "correct": true},
+                {"option": "3) снизу",      "correct": false},
+                {"option": "4) сверху",     "correct": false},
+	{"option": "5) медиально",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Блуждающие  нервы по отношению к корням обоих легких расположены",
+            "a": [
+                {"option": "1) спереди",      "correct": false},
+                {"option": "2) сзади",     "correct": true},
+                {"option": "3) медиально",      "correct": false},
+                {"option": "4) сверху",     "correct": false},
+	{"option": "5) снизу",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Спереди  поперечный  синус перикарда ограничен",
+            "a": [
+                {"option": "1) правой легочной артерией",      "correct": false},
+                {"option": "2) верхней полой веной",     "correct": false},
+                {"option": "3) восходящей частью аорты и легочным стволом",      "correct": true},
+                {"option": "4) левым желудочком",     "correct": false},
+	{"option": "5) обоими предсердиями",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Спереди  косой  синус перикарда ограничен",
+            "a": [
+                {"option": "1) задней стенкой перикарда",      "correct": false},
+                {"option": "2) задней поверхностью левого предсердия",     "correct": true},
+                {"option": "3) задней поверхностью левого желудочка",      "correct": false},
+                {"option": "4) задней поверхностью правого предсердия",     "correct": false},
+	{"option": "5) задней поверхностью правого желудочка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Справа к восходящей части аорты прилежИт",
+            "a": [
+                {"option": "1) легочный ствол",      "correct": false},
+                {"option": "2) нижняя полая вена",     "correct": false},
+                {"option": "3) верхняя полая вена",      "correct": true},
+                {"option": "4) левая верхняя легочная вена",     "correct": false},
+	{"option": "5) правая верхняя легочная вена",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Справа к легочному стволу прилежИт",
+            "a": [
+                {"option": "1) верхняя полая вена",      "correct": false},
+                {"option": "2) нижняя полая вена",     "correct": false},
+                {"option": "3) правая легочная артерия",      "correct": false},
+                {"option": "4) левая нижняя легочная вена",     "correct": false},
+	{"option": "5) восходящая часть аорты",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Слева от верхней полой вены располАГАЕТСЯ",
+            "a": [
+                {"option": "1) легочный ствол",      "correct": false},
+                {"option": "2) левая верхняя легочная вена",     "correct": false},
+                {"option": "3) правая верхняя легочная вена",      "correct": false},
+                {"option": "4) восходящая аорта",     "correct": true},
+	{"option": "5) нижняя полая вена",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Через боталлов проток происходит сообщение легочной артерии с",
+            "a": [
+                {"option": "1) левым желудочком сердца",      "correct": false},
+                {"option": "2) левыми легочными венами",     "correct": false},
+                {"option": "3) правыми легочными венами",      "correct": false},
+                {"option": "4) аортой",     "correct": true},
+	{"option": "5) верхней полой веной",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Впереди  артериального (боталлова) протока проходит",
+            "a": [
+                {"option": "1) левый возвратный нерв",      "correct": false},
+                {"option": "2) левый блуждающий нерв",     "correct": false},
+                {"option": "3) левый диафрагмальный нерв",      "correct": true},
+                {"option": "4) верхняя полая вена",     "correct": false},
+	{"option": "5) дуга аорты",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Сзади  артериального (боталлова) протока ПРОХОДИТ",
+            "a": [
+                {"option": "1) левый блуждающий нерв",      "correct": true},
+                {"option": "2) левый диафрагмальный нерв",     "correct": false},
+                {"option": "3) левый возвратный нерв",      "correct": false},
+                {"option": "4) дуга аорты",     "correct": false},
+	{"option": "5) легочный ствол",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "третье  СУЖЕНИЕ ПИЩЕВОДА НАХОДИТСЯ В МЕСТЕ",
+            "a": [
+                {"option": "1) перехода глотки в пищевод",      "correct": false},
+                {"option": "2) прилегания к пищеводу дуги аорты",     "correct": false},
+                {"option": "3) прилегания к пищеводу бифуркации трахеи",      "correct": true},
+                {"option": "4) прохождения пищевода через диафрагму",     "correct": false},
+	{"option": "5) перехода пищевода в желудок",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Венозный отток от  грудного  отдела пищевода главным образом осуществляется в систему вены",
+            "a": [
+                {"option": "1) воротной",      "correct": false},
+                {"option": "2) верхней полой",     "correct": true},
+                {"option": "3) нижней полой",      "correct": false},
+                {"option": "4) левой нижней легочной",     "correct": false},
+	{"option": "5) правой нижней легочной",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Венозный отток от  брюшного  отдела пищевода главным образом осуществляется в систему вены",
+            "a": [
+                {"option": "1) верхней полой",      "correct": false},
+                {"option": "2) нижней полой",     "correct": false},
+                {"option": "3) воротной",      "correct": true},
+                {"option": "4) непарной",     "correct": false},
+	{"option": "5) правой печеночной",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Левый  блуждающий нерв расположен по отношению к стенке пищевода",
+            "a": [
+                {"option": "1) слева",      "correct": false},
+                {"option": "2) справа",     "correct": false},
+                {"option": "3) спереди",      "correct": true},
+                {"option": "4) сзади",     "correct": false},
+	{"option": "5) сзади и слева",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Непарная вена впадает в вену",
+            "a": [
+                {"option": "1) нижнюю полую",      "correct": false},
+                {"option": "2) верхнюю полую",     "correct": true},
+                {"option": "3) левую подключичную",      "correct": false},
+                {"option": "4) правую подключичную",     "correct": false},
+	{"option": "5) внутреннюю грудную",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Полунепарная вена впадает в непарную вену на уровне грудных позвонков",
+            "a": [
+                {"option": "1) Тh2-Тh5",      "correct": false},
+                {"option": "2) Тh1-Тh4",     "correct": false},
+                {"option": "3) Тh4-Тh6",      "correct": false},
+                {"option": "4) Тh3- Тh8",     "correct": false},
+	{"option": "5) Тh7-Тh11",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "латерально От непарной вены расположены",
+            "a": [
+                {"option": "1) аорта",      "correct": false},
+                {"option": "2) грудной лимфатический проток",     "correct": false},
+                {"option": "3) позвоночный столб",      "correct": false},
+                {"option": "4) правый пограничный симпатический ствол",     "correct": true},
+	{"option": "5) пищевод",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Правосторонний  хилезный плеврит возникает при повреждении грудного протока на уровне позвонков",
+            "a": [
+                {"option": "1) Тh2 и ниже",      "correct": false},
+                {"option": "2) Тh3 и ниже",     "correct": false},
+                {"option": "3) Тh4 и ниже",      "correct": false},
+                {"option": "4) Тh5 и ниже",     "correct": true},
+	{"option": "5) L1 и ниже",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Левосторонний  хилезный плеврит возникает при повреждении грудного протока на уровне позвонков",
+            "a": [
+                {"option": "1) L2 и выше",      "correct": false},
+                {"option": "2) Тh12 и выше",     "correct": false},
+                {"option": "3) Тh10 и выше",      "correct": false},
+                {"option": "4) Тh8 и выше",     "correct": false},
+	{"option": "5) Тh5 и выше",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При переломах ключицы на границе наружной и средней третей  внутренний  отломок ключицы чаще смещается",
+            "a": [
+                {"option": "1) вниз и кпереди",      "correct": false},
+                {"option": "2) кверху и кзади",     "correct": true},
+                {"option": "3) кверху и кпереди",      "correct": false},
+                {"option": "4) вниз и кзади",     "correct": false},
+	{"option": "5) только кверху",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При переломах ключицы на границе наружной и средней третей  наружный  отломок будет смещаться",
+            "a": [
+                {"option": "1) кверху и кзади",      "correct": false},
+                {"option": "2) вниз и кзади",     "correct": true},
+                {"option": "3) кверху и кпереди",      "correct": false},
+                {"option": "4) вниз и кпереди",     "correct": false},
+	{"option": "5) смещаться не будет",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При накоплении  жидкости  в плевральной полости пункциЮ плеврЫ производят по верхнему краю ребра в межреберье",
+            "a": [
+                {"option": "1) 2-3",      "correct": false},
+                {"option": "2) 3-4",     "correct": false},
+                {"option": "3) 5-6",      "correct": false},
+                {"option": "4) 7-8",     "correct": true},
+	{"option": "5) 8-9",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При скоплении  воздуха  в плевральной полости пункцию плевры производят спереди грудной клетки в межреберье",
+            "a": [
+                {"option": "1) 2-3",     "correct": true},
+                {"option": "2) 3-4",     "correct": false},
+                {"option": "3) 4-5",     "correct": false},
+                {"option": "4) 5-6",     "correct": false},
+	{"option": "5) 7-8",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Чаще пунктируют синус перикарда",
+            "a": [
+                {"option": "1) косой",     "correct": false},
+                {"option": "2) поперечный",     "correct": false},
+                {"option": "3) передненижний",     "correct": true},
+                {"option": "4) задненижний",     "correct": false},
+	{"option": "5) не имеет значения",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Точка пункции перикарда по  Ларрею  расположена",
+            "a": [
+                {"option": "1) у вершины мечевидного отростка по передней срединной линии",     "correct": false},
+                {"option": "2) справа у латерального края грудины в 3-м межреберье",     "correct": false},
+                {"option": "3) в углу между основанием мечевидного отростка и левой реберной дугой",     "correct": true},
+                {"option": "4) в углу между основанием мечевидного отростка и правой реберной дугой",     "correct": false},
+	{"option": "5) слева в 4-м межреберье у латерального края грудины",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Интрамаммарные  маститы вскрываются разрезами",
+            "a": [
+                {"option": "1) косыми",     "correct": false},
+                {"option": "2) поперечными",     "correct": false},
+                {"option": "3) радиальными",     "correct": true},
+                {"option": "4) комбинированными",     "correct": false},
+	{"option": "5) полулунными",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Ретромаммарные  маститы вскрываются разрезами",
+            "a": [
+                {"option": "1) радиальными",     "correct": false},
+                {"option": "2) косыми",     "correct": false},
+                {"option": "3) поперечными",     "correct": false},
+                {"option": "4) полулуными",     "correct": true},
+	{"option": "5) комбинированными",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При поднадкостничной резекции ребра надкостница рассекается",
+            "a": [
+                {"option": "1) одним продольным разрезом",     "correct": false},
+                {"option": "2) одним поперечным разрезом",     "correct": false},
+                {"option": "3) косым разрезом по передней поверхности ребра",     "correct": false},
+                {"option": "4) H-образным разрезом по передней поверхности ребра",     "correct": true},
+	{"option": "5) продольным разрезом по верхнему краю ребра",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При поднадкостничной резекции РЕБРА надкостница от  переднебоковой  ЕГО поверхности ОТДЕЛЯЕТСЯ",
+            "a": [
+                {"option": "1) распатором Дуайена",     "correct": false},
+                {"option": "2) распатором Фарабёфа",     "correct": true},
+                {"option": "3) остеотомом",     "correct": false},
+                {"option": "4) лопаточкой Буяльского",     "correct": false},
+	{"option": "5) скальпелем",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При поднадкостничной резекции ребра надкостница от  задней  его поверхности отделяется",
+            "a": [
+                {"option": "1) крючком Фарабёфа",     "correct": false},
+                {"option": "2) остеотомом",     "correct": false},
+                {"option": "3) распатором Дуайена",     "correct": true},
+                {"option": "4) изогнутым распатором Фарабёфа",     "correct": false},
+	{"option": "5) ретрактором",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При ушивании открытого пневмоторакса в  первый  ряд швов захватывают",
+            "a": [
+                {"option": "1) плевру, внутригрудную фасцию",     "correct": false},
+                {"option": "2) подкожную жировую клетчатку и кожу",     "correct": false},
+                {"option": "3) межреберные мышцы и внутригрудную фасцию",     "correct": false},
+                {"option": "4) плевру, межреберные мышцы, надкостницу, внутригрудную фасцию",     "correct": true},
+	{"option": "5) фасцию и поверхностные мышцы грудной стенки",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Горизонтальная часть  переднебокового  доступа к легким проходит по межреберью",
+            "a": [
+                {"option": "1) 2-3",     "correct": false},
+                {"option": "2) 4-5",     "correct": true},
+                {"option": "3) 6-7",     "correct": false},
+                {"option": "4) 7-8",     "correct": false},
+	{"option": "5) 8-9",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Разрез мягких тканей при  заднебоковом  доступе к легким начинается по паравертебральной линии на уровне остистых отростков грудных позвонков",
+            "a": [
+                {"option": "1) II-III",     "correct": false},
+                {"option": "2) III-IV",     "correct": true},
+                {"option": "3) IV-V",     "correct": false},
+                {"option": "4) V-VI",     "correct": false},
+	{"option": "5) I-II",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "Разрез мягких тканей при  боковом  межрЕберном доступе к легким проводится от лопаточной линии до",
+            "a": [
+                {"option": "1) паравертебральной",     "correct": false},
+                {"option": "2) задней подмышечной",     "correct": false},
+                {"option": "3) средней подмышечной",     "correct": false},
+                {"option": "4) передней подмышечной",     "correct": false},
+	{"option": "5) среднеключичной",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При сегментэктомии легкого  границы сегмента  на операционном столе определяются путем пережатия",
+            "a": [
+                {"option": "1) сегментарной вены",     "correct": false},
+                {"option": "2) сегментарного бронха",     "correct": true},
+                {"option": "3) сегментарной артерии",     "correct": false},
+                {"option": "4) зонального бронха",     "correct": false},
+	{"option": "5) зональной артерии",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При удалении легкого обработка элементов его корня начинается с",
+            "a": [
+                {"option": "1) верхней легочной вены",     "correct": false},
+                {"option": "2) нижней легочной вены",     "correct": false},
+                {"option": "3) легочной артерии",     "correct": true},
+                {"option": "4) непарной вены",     "correct": false},
+	{"option": "5) главного бронха",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При пульмонэктомии по поводу  рака  легкого обработка элементов корня легкого начинается с",
+            "a": [
+                {"option": "1) легочной артерии",     "correct": false},
+                {"option": "2) легочной вены",     "correct": true},
+                {"option": "3) главного бронха",     "correct": false},
+                {"option": "4) зонального бронха",     "correct": false},
+	{"option": "5) зональной артерии",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При пульмонэктомии по поводу  гангрены  легкого обработка элементов его корня начинается с",
+            "a": [
+                {"option": "1) верхней легочной вены",     "correct": false},
+                {"option": "2) нижней легочной вены",     "correct": false},
+                {"option": "3) легочной артерии",     "correct": false},
+                {"option": "4) главного бронха",     "correct": true},
+	{"option": "5) непарной вены",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При создании искусственного пищевода по  Ру-Герцену  кишечная трубка проводится",
+            "a": [
+                {"option": "1) позади грудины",     "correct": false},
+                {"option": "2) в переднем средостении",     "correct": false},
+                {"option": "3) в заднем средостении",     "correct": false},
+                {"option": "4) впереди грудины под кожей",     "correct": true},
+	{"option": "5) через левый и правый плевральные мешки",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При создании искусственного пищевода по  Ру-Герцену  кишечная трубка проводится",
+            "a": [
+                {"option": "1) впереди грудины под кожей",     "correct": false},
+                {"option": "2) в ретростернальном клетчаточном пространстве",     "correct": true},
+                {"option": "3) через левый плевральный мешок",     "correct": false},
+                {"option": "4) через переднее средостение",     "correct": false},
+	{"option": "5) через заднее средостение",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При наложении первого ряда швов на рану грудного отдела пищевода в шов захватывают слой тканей",
+            "a": [
+                {"option": "1) мышечный",     "correct": false},
+                {"option": "2) подслизистый",     "correct": false},
+                {"option": "3) слизистый",     "correct": false},
+                {"option": "4) слизистый, подслизистый",     "correct": false},
+	{"option": "5) слизистый, подслизистый, мышечный",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При наложении второго ряда швов на рану грудного отдела пищевода в шов захватывают слой тканей",
+            "a": [
+                {"option": "1) мышечный",     "correct": false},
+                {"option": "2) подслизистый",     "correct": false},
+                {"option": "3) подслизистый, мышечный",     "correct": false},
+                {"option": "4) мышечный, адвентициальный",     "correct": true},
+	              {"option": "5) адвентициальный",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "При ушивании раны сердца в шов захватывают",
+            "a": [
+                {"option": "1) только эпикард",     "correct": false},
+                {"option": "2) только миокард",     "correct": false},
+                {"option": "3) только эндокард",     "correct": false},
+                {"option": "4) эпикард и миокард",     "correct": true},
+	{"option": "5) миокард и эндокард",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+}
+    ]}});
+
+    $('#slickQuiz10').slickQuiz({json: {"info": {
+        "name":    "Тестовые задания по теме №10",
+        "main":    "<p>Переднебоковая стенка живота. Пупочные грыжи. Грыжи белой линии живота</p>",
+        "results": "<p>Этот тест был под силу не каждому. Ты молодец, приходи еще.</p>"
+    },
+    "questions": [
+      {
+            "q": "LINEA BICOSTARUM СОЕДИНЯЕТ ТОЧКИ",
+            "a": [
+                {"option": "1) нижние точки XII ребер",      "correct": false},
+                {"option": "2) нижние точки XI ребер",     "correct": false},
+                {"option": "3) нижние точки X ребер",      "correct": true},
+                {"option": "4) передние верхние подвздошные ости",     "correct": false},
+	{"option": "5) передние нижние подвздошные ости",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "LINEA BISPINARUM СОЕДИНЯЕТ ТОЧКИ",
+            "a": [
+                {"option": "1) нижние точки XII ребер",      "correct": false},
+                {"option": "2) нижние точки XI ребер",     "correct": false},
+                {"option": "3) нижние точки X ребер",      "correct": false},
+                {"option": "4) передние верхние подвздошные ости",     "correct": true},
+	{"option": "5) передние нижние подвздошные ости",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "СОБСТВЕННО НАДЧРЕВНУЮ ОБЛАСТЬ СНИЗУ ОГРАНИЧИВАЕТ ЛИНИЯ",
+            "a": [
+                {"option": "1) linea bispinarum",      "correct": false},
+                {"option": "2) linea bicostarum",     "correct": true},
+                {"option": "3) проведенная по латеральному краю прямой мышцы живота",      "correct": false},
+                {"option": "4) проведенная по краю реберной дуги",     "correct": false},
+	{"option": "5) проведенная от переденй верхней ости крыла подвздошной кости до лобкового бугорка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПУПОЧНУЮ ОБЛАСТЬ СНИЗУ ОГРАНИЧИВАЕТ ЛИНИЯ",
+            "a": [
+                {"option": "1) linea bispinarum",      "correct": true},
+                {"option": "2) linea bicostarum",     "correct": false},
+                {"option": "3) проведенная по латеральному краю прямой мышцы живота",      "correct": false},
+                {"option": "4) проведенная по краю реберной дуги",     "correct": false},
+	{"option": "5) проведенная от переденй верхней ости крыла подвздошной кости до лобкового бугорка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛОБКОВУЮ ОБЛАСТЬ СВЕРХУ ОГРАНИЧИВАЕТ ЛИНИЯ",
+            "a": [
+                {"option": "1) linea bispinarum",      "correct": true},
+                {"option": "2) linea bicostarum",     "correct": false},
+                {"option": "3) проведенная по латеральному краю прямой мышцы живота",      "correct": false},
+                {"option": "4) проведенная по краю реберной дуги",     "correct": false},
+	{"option": "5) проведенная от переденй верхней ости крыла подвздошной кости до лобкового бугорка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛОБКОВУЮ ОБЛАСТЬ ЛАТЕРАЛЬНО ОГРАНИЧИВАЕТ ЛИНИЯ",
+            "a": [
+                {"option": "1) linea bispinarum",      "correct": true},
+                {"option": "2) linea bicostarum",     "correct": false},
+                {"option": "3) проведенная по латеральному краю прямой мышцы живота",      "correct": false},
+                {"option": "4) проведенная по краю реберной дуги",     "correct": false},
+	{"option": "5) проведенная от переденй верхней ости крыла подвздошной кости до лобкового бугорка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРАВУЮ БОКОВУЮ ОБЛАСТЬ МЕДИАЛЬНО ОГРАНИЧИВАЕТ ЛИНИЯ",
+            "a": [
+                {"option": "1) linea bispinarum",      "correct": false},
+                {"option": "2) linea bicostarum",     "correct": false},
+                {"option": "3) проведенная по латеральному краю прямой мышцы живота",      "correct": true},
+                {"option": "4) проведенная по краю реберной дуги",     "correct": false},
+	{"option": "5) проведенная от переденй верхней ости крыла подвздошной кости до лобкового бугорка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛЕВУЮ БОКОВУЮ ОБЛАСТЬ МЕДИАЛЬНО ОГРАНИЧИВАЕТ ЛИНИЯ",
+            "a": [
+                {"option": "1) linea bispinarum",      "correct": false},
+                {"option": "2) linea bicostarum",     "correct": false},
+                {"option": "3) проведенная по латеральному краю прямой мышцы живота",      "correct": true},
+                {"option": "4) проведенная по краю реберной дуги",     "correct": false},
+	{"option": "5) проведенная от переденй верхней ости крыла подвздошной кости до лобкового бугорка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛЕВУЮ ПАХОВУЮ ОБЛАСТЬ МЕДИАЛЬНО ОГРАНИЧИВАЕТ ЛИНИЯ",
+            "a": [
+                {"option": "1) linea bispinarum",      "correct": false},
+                {"option": "2) linea bicostarum",     "correct": false},
+                {"option": "3) проведенная по латеральному краю прямой мышцы живота",      "correct": true},
+                {"option": "4) проведенная по краю реберной дуги",     "correct": false},
+	{"option": "5) проведенная от переденй верхней ости крыла подвздошной кости до лобкового бугорка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРАВУЮ ПАХОВУЮ ОБЛАСТЬ ЛАТЕРАЛЬНО ОГРАНИЧИВАЕТ ЛИНИЯ",
+            "a": [
+                {"option": "1) linea bispinarum",      "correct": false},
+                {"option": "2) linea bicostarum",     "correct": false},
+                {"option": "3) проведенная по латеральному краю прямой мышцы живота",      "correct": false},
+                {"option": "4) проведенная по краю реберной дуги",     "correct": false},
+	{"option": "5) проведенная от переденй верхней ости крыла подвздошной кости до лобкового бугорка",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПОВЕРХНОСТНАЯ НАДЧРЕВНАЯ АРТЕРИЯ РАСПОЛАГАЕТСЯ МЕЖДУ",
+            "a": [
+                {"option": "1) кожей и поверхностной пластинкой поверхностной фасции",      "correct": false},
+                {"option": "2) листками поверхностной фасции",     "correct": true},
+                {"option": "3) глубоким листком поверхностной фасции и апоневрозом наружной косой мышцы живота",      "correct": false},
+                {"option": "4) передней стенкой влагалища прямой мышцы живота и пирамидальной мышцей",     "correct": false},
+	{"option": "5) пирамидальной и прямой мышцами живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ГЛУБОКАЯ ПЛАСТИНКА ПОВЕРХНОСТНОЙ ФАСЦИИ ЖИВОТА (ФАСЦИЯ ТОМСОНА) ПРИКРЕПЛЯЕТСЯ К",
+            "a": [
+                {"option": "1) пупочному кольцу",      "correct": false},
+                {"option": "2) наружному паховому кольцу",     "correct": false},
+                {"option": "3) апоневрозу наружной косой мышцы живота",      "correct": false},
+                {"option": "4) паховым связкам",     "correct": true},
+	{"option": "5) не прикрепляясь переходит на соседние области",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПЕРЕДНЯЯ  СТЕНКА ВЛАГАЛИЩА ПРЯМОЙ МЫШЦЫ ЖИВОТА  ВЫШЕ  ПУПОЧНОГО КОЛЬЦА ПРЕДСТАВЛЕНА",
+            "a": [
+                {"option": "1) поперечной фасцией",      "correct": false},
+                {"option": "2) брюшинойу",     "correct": false},
+                {"option": "3) апоневрозом наружной косой и поверхностным листком апоневроза внутренней косой мышц живота",      "correct": false},
+                {"option": "4) апоневрозами трех широких мышц живота",     "correct": false},
+	{"option": "5) глубоким листком апоневроза внутренней косой и апоневрозом поперечной мышц живота",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЗАДНЯЯ  СТЕНКА ВЛАГАЛИЩА ПРЯМОЙ МЫШЦЫ ЖИВОТА  ВЫШЕ  ПУПОЧНОГО КОЛЬЦА ПРЕДСТАВЛЕНА",
+            "a": [
+                {"option": "1) поперечной фасцией",      "correct": false},
+                {"option": "2) брюшинойу",     "correct": false},
+                {"option": "3) апоневрозом наружной косой и поверхностным листком апоневроза внутренней косой мышц живота",      "correct": false},
+                {"option": "4) апоневрозами трех широких мышц живота",     "correct": false},
+	{"option": "5) глубоким листком апоневроза внутренней косой и апоневрозом поперечной мышц живота",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПЕРЕДНЯЯ  СТЕНКА ВЛАГАЛИЩА ПРЯМОЙ МЫШЦЫ ЖИВОТАНА 8 СМ  НИЖЕ  ПУПОЧНОГО КОЛЬЦА ПРЕДСТАВЛЕНА",
+            "a": [
+                {"option": "1) поперечной фасцией",      "correct": false},
+                {"option": "2) брюшинойу",     "correct": false},
+                {"option": "3) апоневрозом наружной косой и поверхностным листком апоневроза внутренней косой мышц живота",      "correct": false},
+                {"option": "4) апоневрозами трех широких мышц живота",     "correct": true},
+	{"option": "5) глубоким листком апоневроза внутренней косой и апоневрозом поперечной мышц живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЗАДНЯЯ  СТЕНКА ВЛАГАЛИЩА ПРЯМОЙ МЫШЦЫ ЖИВОТА НА 8 СМ  НИЖЕ  ПУПОЧНОГО КОЛЬЦА ПРЕДСТАВЛЕНА",
+            "a": [
+                {"option": "1) поперечной фасцией",      "correct": true},
+                {"option": "2) брюшинойу",     "correct": false},
+                {"option": "3) апоневрозом наружной косой и поверхностным листком апоневроза внутренней косой мышц живота",      "correct": false},
+                {"option": "4) апоневрозами трех широких мышц живота",     "correct": false},
+	{"option": "5) глубоким листком апоневроза внутренней косой и апоневрозом поперечной мышц живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПИРАМИДАЛЬНЫЕ МЫШЦЫ РАСПОЛАГАЮТСЯ НЕПОСРЕДСТВЕННО ПОЗАДИ",
+            "a": [
+                {"option": "1) кожи",      "correct": false},
+                {"option": "2) фасции Томсона",     "correct": false},
+                {"option": "3) передней пластинки влагалища прямой мышцы живота",      "correct": true},
+                {"option": "4) прямой мышцы живота",     "correct": false},
+	{"option": "5) задней пластинки влагалища прямой мышцы живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "БЕЛАЯ ЛИНИЯ ЖИВОТА ПРЕДСТАВЛЕНА",
+            "a": [
+                {"option": "1) кожей",      "correct": false},
+                {"option": "2) сросшимися листками поверхностной фасции",     "correct": false},
+                {"option": "3) апоневрозами наружных косых мышц живота",      "correct": false},
+                {"option": "4) апоневрозами наружных и внутренних косых мышц живота",     "correct": false},
+	{"option": "5) апоневрозами всех трех пар широких мышц живота",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "БЕЛАЯ ЛИНИЯ ЖИВОТА  У  МЕЧЕВИДНОГО  ОТРОСТКА  ИМЕЕТ  ШИРИНУ ",
+            "a": [
+                {"option": "1) 0,4-0,5 см",      "correct": true},
+                {"option": "2) 1-2 см",     "correct": false},
+                {"option": "3) 2-3 см",      "correct": false},
+                {"option": "4) 4-5 см",     "correct": false},
+	{"option": "5) более 5 см",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "БЕЛАЯ ЛИНИЯ ЖИВОТА  НА  УРОВНЕ  ПУПКА ИМЕЕТ  ШИРИНУ ",
+            "a": [
+                {"option": "1) до 0,5 см",      "correct": false},
+                {"option": "2) 1-2 см",     "correct": false},
+                {"option": "3) 2-3 см",      "correct": true},
+                {"option": "4) 4-5 см",     "correct": false},
+	{"option": "5) более 5 см",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "БЕЛАЯ ЛИНИЯ ЖИВОТА  НАД  ЛОБКОВЫМ  СИМФИЗОМ  ИМЕЕТ  ШИРИНУ ",
+            "a": [
+                {"option": "1) до 0,5 см",      "correct": true},
+                {"option": "2) 1-2 см",     "correct": false},
+                {"option": "3) 2-3 см",      "correct": false},
+                {"option": "4) 4-5 см",     "correct": false},
+	{"option": "5) более 5 см",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "БЕЛАЯ ЛИНИЯ ЖИВОТА  ВЫШЕ  ПУПКА ИМЕЕТ  ТОЛЩИНУ ",
+            "a": [
+                {"option": "1) 0,5 мм",      "correct": false},
+                {"option": "2) 0,5-1 мм",     "correct": false},
+                {"option": "3) 1-2 мм",      "correct": true},
+                {"option": "4) 2-3 мм",     "correct": false},
+	{"option": "5) 3-4 мм",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ББЕЛАЯ ЛИНИЯ ЖИВОТА  НИЖЕ  ПУПКА ИМЕЕТ  ТОЛЩИНУ ",
+            "a": [
+                {"option": "1) 0,5 мм",      "correct": false},
+                {"option": "2) 0,5-1 мм",     "correct": false},
+                {"option": "3) 1-2 мм",      "correct": false},
+                {"option": "4) 2-3 мм",     "correct": false},
+	{"option": "5) 3-4 мм",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "В СОСТАВ ПУПКА ВХОДЯТ ПЛОТНО СРАЩЕННЫЕ МЕЖДУ СОБОЙ СЛОИ",
+            "a": [
+                {"option": "1) кожа, подкожная клетчатка, поперечная фасция, париетальная брюшина",      "correct": false},
+                {"option": "2) кожа, рубцовая ткань, предбрюшинная клетчатка, париетальная брюшина",     "correct": false},
+                {"option": "3) кожа, рубцовая ткань, поперечная фасция, париетальная брюшина",      "correct": true},
+                {"option": "4) кожа, белая линия живота, париетальная брюшина",     "correct": false},
+	{"option": "5) кожа, подкожная клетчатка, белая линия живота, париетальная брюшина",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛИНИЯ ПЕРЕХОДА МЫШЕЧНОЙ ЧАСТИ ПОПЕРЕЧНОЙ МЫШЦЫ ЖИВОТА В АПОНЕВРОТИЧЕСКУЮ НАЗЫВАЕТСЯ",
+            "a": [
+                {"option": "1) белой линией живота",      "correct": false},
+                {"option": "2) дугообразной линией (Дугласа)",     "correct": false},
+                {"option": "3) полулунной (спигелиевой) линией",      "correct": false},
+                {"option": "4) линией Жерди ",     "correct": true},
+	{"option": "5) паховой (пупартовой) связкой",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "СРЕДИННАЯ  ПУПОЧНАЯ СКЛАДКА НАХОДИТСЯ НАД",
+            "a": [
+                {"option": "1) облитерированной пупочной артерией",      "correct": false},
+                {"option": "2) мочевым протоком",     "correct": true},
+                {"option": "3) запустевшей пупочной веной",      "correct": false},
+                {"option": "4) нижними надчревными артерией и веной",     "correct": false},
+	{"option": "5) мочеточником",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "МЕДИАЛЬНАЯ  ПУПОЧНАЯ СКЛАДКА НАХОДИТСЯ НАД",
+            "a": [
+                {"option": "1) облитерированной пупочной артерией",      "correct": true},
+                {"option": "2) мочевым протоком",     "correct": false},
+                {"option": "3) запустевшей пупочной веной",      "correct": false},
+                {"option": "4) нижними надчревными артерией и веной",     "correct": false},
+	{"option": "5) мочеточником",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛАТЕРАЛЬНАЯ  ПУПОЧНАЯ СКЛАДКА НАХОДИТСЯ НАД",
+            "a": [
+                {"option": "1) облитерированной пупочной артерией",      "correct": false},
+                {"option": "2) мочевым протоком",     "correct": false},
+                {"option": "3) запустевшей пупочной веной",      "correct": false},
+                {"option": "4) нижними надчревными артерией и веной",     "correct": true},
+	{"option": "5) мочеточником",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "НАДПУЗЫРНАЯ  ЯМКА ВНУТРЕННЕЙ ПОВЕРХНОСТИ ПЕРЕДНЕЙ БРЮШНОЙ СТЕНКИ РАСПОЛАГАЕТСЯ",
+            "a": [
+                {"option": "1) между срединной и медиальной складками",      "correct": true},
+                {"option": "2) между срединной и латеральной складками",     "correct": false},
+                {"option": "3) между медиальной и латеральной складками",      "correct": false},
+                {"option": "4) кнаружи от латеральной складки",     "correct": false},
+	{"option": "5) выше пупка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "МЕДИАЛЬНАЯ  ПАХОВАЯ ЯМКА ВНУТРЕННЕЙ ПОВЕРХНОСТИ ПЕРЕДНЕЙ БРЮШНОЙ СТЕНКИ РАСПОЛАГАЕТСЯ",
+            "a": [
+                {"option": "1) между срединной и медиальной складками",      "correct": false},
+                {"option": "2) между срединной и латеральной складками",     "correct": false},
+                {"option": "3) между медиальной и латеральной складками",      "correct": true},
+                {"option": "4) кнаружи от латеральной складки",     "correct": false},
+	{"option": "5) выше пупка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛАТЕРАЛЬНАЯ  ПАХОВАЯ ЯМКА ВНУТРЕННЕЙ ПОВЕРХНОСТИ ПЕРЕДНЕЙ БРЮШНОЙ СТЕНКИ РАСПОЛАГАЕТСЯ",
+            "a": [
+                {"option": "1) между срединной и медиальной складками",      "correct": false},
+                {"option": "2) между срединной и латеральной складками",     "correct": false},
+                {"option": "3) между медиальной и латеральной складками",      "correct": false},
+                {"option": "4) кнаружи от латеральной складки",     "correct": true},
+	{"option": "5) выше пупка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "НИЖНЯЯ И ВЕРХНЯЯ НАДЧРЕВНЫЕ АРТЕРИИ ПЕРЕДНЕЙ БРЮШНОЙ СТЕНКИ НАХОДЯТСЯ ПОЗАДИ",
+            "a": [
+                {"option": "1) апоневроза наружной косой мышцы живота",      "correct": false},
+                {"option": "2) апоневроза внутренней косой мышцы живота",     "correct": false},
+                {"option": "3) апоневроза поперечной мышцы живота",      "correct": false},
+                {"option": "4) прямой мышцы живота",     "correct": true},
+	{"option": "5) кожи в подкожной жировой клетчатке",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГРЫЖЕ  ЛИТТРЕ  В ГРЫЖЕВОЙ МЕШОК ПОПАДАЕТ",
+            "a": [
+                {"option": "1) слепая кишка с аппендикулярным отростком",      "correct": false},
+                {"option": "2) аппендикулярный отросток",     "correct": false},
+                {"option": "3) дивертикул Меккеля",      "correct": true},
+                {"option": "4) стенка толстой кишки",     "correct": false},
+	{"option": "5) стенка тонкой кишки",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГРЫЖЕ  РИХТЕРА  В ГРЫЖЕВОЙ МЕШОК ПОПАДАЕТ",
+            "a": [
+                {"option": "1) аппендикулярный отросток",      "correct": false},
+                {"option": "2) дивертикул Меккеля",     "correct": false},
+                {"option": "3) мочевой пузырь",      "correct": false},
+                {"option": "4) стенка кишки",     "correct": true},
+	{"option": "5) тонкая кишка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ  РЕТРОГРАДНОМ  УЩЕМЛЕНИИ (ГРЫЖЕ ТИПА «W») В ГРЫЖЕВОМ МЕШКЕ ОБНАРУЖИВАЮТ",
+            "a": [
+                {"option": "1) петлю тонкой кишки",      "correct": false},
+                {"option": "2) петлю толстой кишки",     "correct": false},
+                {"option": "3) большой сальник",      "correct": false},
+                {"option": "4) несколько петель тонкой кишки",     "correct": true},
+	{"option": "5) мочевой пузырь",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ФОРМИРОВАНИИ СКОЛЬЗЯЩЕЙ ГРЫЖИ В СОСТАВ  СТЕНКИ  ГРЫЖЕВОГО МЕШКА МОЖЕТ ВХОДИТЬ",
+            "a": [
+                {"option": "1) селезенка",      "correct": false},
+                {"option": "2) большой сальник",     "correct": false},
+                {"option": "3) слепая кишка",      "correct": true},
+                {"option": "4) подвздошная кишка",     "correct": false},
+	{"option": "5) тощая кишка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "НА ЭТАПЕ ОБРАБОТКИ ГРЫЖЕВОГО МЕШКА ВЫПОЛНЯЮТ ЕГО",
+            "a": [
+                {"option": "1) выделение из окружающих тканей",      "correct": false},
+                {"option": "2) вскрытие",     "correct": false},
+                {"option": "3) ревизию",      "correct": false},
+                {"option": "4) прошивание у шейки и отсечение",     "correct": true},
+	{"option": "5) пластику",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПУНКЦИЮ БРЮШНОЙ СТЕНКИ ПРИ АСЦИТЕ ПРОИЗВОДЯТ В ТОЧКЕ, РАСПОЛОЖЕННОЙ",
+            "a": [
+                {"option": "1) по средней линии на 1 см выше пупка",      "correct": false},
+                {"option": "2) через пупочное кольцо",     "correct": false},
+                {"option": "3) по средней линии на 1 см ниже пупка",      "correct": false},
+                {"option": "4) по средней линии на 3-4 см ниже пупка",     "correct": true},
+	{"option": "5) по средней линии на 1-2 см выше лобкового симфиза",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПОВТОРНУЮ  ПУНКЦИЮ БРЮШНОЙ СТЕНКИ ПРИ АСЦИТЕ ПРОИЗВОДЯТ В ТОЧКЕ, РАСПОЛОЖЕННОЙ",
+            "a": [
+                {"option": "1) на 1 см выше места предшествующей пункции",      "correct": false},
+                {"option": "2) на 1 см ниже места предшествующей пункции",     "correct": false},
+                {"option": "3) на границе левой и средней третей линии, соединяющей верхние передние подвздошные ости",      "correct": false},
+                {"option": "4) на границе верхней и средней третей линии, соединяющей пупок и правую верхнюю переднюю подвздошную ость",     "correct": false},
+	{"option": "5) на границе верхней и средней третей линии, соединяющей пупок и левую верхнюю переднюю подвздошную ость",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГРЫЖЕ БЕЛОЙ ЛИНИИ ЖИВОТА ГРЫЖЕВЫМ СОДЕРЖИМЫМ ОЧЕНЬ ЧАСТО ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) стенка желудка",      "correct": false},
+                {"option": "2) петля тощей кишки",     "correct": false},
+                {"option": "3) стенка поперечной ободочной кишки",      "correct": false},
+                {"option": "4) участок большого сальника",     "correct": false},
+	{"option": "5) участок предбрюшинной клетчатки",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ УСТРАНЕНИИ ДИАСТАЗА ПРЯМЫХ МЫШЦ ЖИВОТА ПО  НАПАЛКОВУ  РАССЕКАЮТ",
+            "a": [
+                {"option": "1) белую линию живота",      "correct": false},
+                {"option": "2) переднюю стенку влагалища левой прямой мышцы живота на расстоянии 0,5 см от ее латерального края",     "correct": false},
+                {"option": "3) переднюю стенку влагалища правой прямой мышцы живота на расстоянии 0,5 см от ее латерального края",      "correct": false},
+                {"option": "4) передние стенки влагалищ прямых мышц живота на расстоянии 0,5 см от их медиальных крев",     "correct": true},
+	{"option": "5) передние и задние стенки влагалищ прямых мышц живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ УСТРАНЕНИИ ДИАСТАЗА ПРЯМЫХ МЫШЦ ЖИВОТА ПО  НАПАЛКОВУ  ПЕРВЫМ  РЯДОМ ШВОВ СШИВАЮТ",
+            "a": [
+                {"option": "1) медиальные края прямых мышц живота",      "correct": false},
+                {"option": "2) задние стенки влагалищ прямых мышц живота",     "correct": false},
+                {"option": "3) медиальные края передних стенок влагалищ прямых мышц живота",      "correct": true},
+                {"option": "4) латеральные края передних стенок влагалищ прямых мышц живота",     "correct": false},
+	{"option": "5) края апоневрозов широких мышц живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ УСТРАНЕНИИ ДИАСТАЗА ПРЯМЫХ МЫШЦ ЖИВОТА ПО  НАПАЛКОВУ  ПЕРВЫМ  РЯДОМ ШВОВ СШИВАЮТ",
+            "a": [
+                {"option": "1) медиальные края прямых мышц живота",      "correct": false},
+                {"option": "2) задние стенки влагалищ прямых мышц живота",     "correct": false},
+                {"option": "3) медиальные края передних стенок влагалищ прямых мышц живота",      "correct": false},
+                {"option": "4) латеральные края передних стенок влагалищ прямых мышц живота",     "correct": true},
+	{"option": "5) края апоневрозов широких мышц живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПУПОЧНОГО КОЛЬЦА  ПРИ ПУПОЧНОЙ ГРЫЖЕ МЕТОДОМ  МЕЙО  БЕЛУЮ ЛИНИЮ ЖИВОТА РАССЕКАЮТ РАЗРЕЗОМ",
+            "a": [
+                {"option": "1) продольным",      "correct": false},
+                {"option": "2) косым",     "correct": false},
+                {"option": "3) поперечным",      "correct": true},
+                {"option": "4) окаймляющим",     "correct": false},
+	{"option": "5) крестообразным",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПУПОЧНОГО КОЛЬЦА  ПРИ ПУПОЧНОЙ ГРЫЖЕ МЕТОДОМ  МЕЙО  НИЖНИЙ КРАЙ АПОНЕВРОЗА ШИРОКИХ МЫШЦ ЖИВОТА ПОДШИВАЮТ К ВЕРХНЕМУ (ПЕРВЫЙ РЯД ШВОВ) ШВАМИ",
+            "a": [
+                {"option": "1) узловыми",      "correct": false},
+                {"option": "2) кисетными",     "correct": false},
+                {"option": "3) Z-образными",      "correct": false},
+                {"option": "4) П-образными",     "correct": true},
+	{"option": "5) обвивными",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПУПОЧНОГО КОЛЬЦА  ПРИ ПУПОЧНОЙ ГРЫЖЕ МЕТОДОМ  МЕЙО  ВЕРХНИЙ КРАЙ АПОНЕВРОЗА ШИРОКИХ МЫШЦ ЖИВОТА ПОДШИВАЮТ К НИЖНЕМУ (ВТОРОЙ РЯД ШВОВ) ШВАМИ",
+            "a": [
+                {"option": "1) узловыми",      "correct": true},
+                {"option": "2) кисетными",     "correct": false},
+                {"option": "3) Z-образными",      "correct": false},
+                {"option": "4) П-образными",     "correct": false},
+	{"option": "5) обвивными",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПУПОЧНОГО КОЛЬЦА  ПРИ ПУПОЧНОЙ ГРЫЖЕ МЕТОДОМ  МЕЙО  СШИВАЯ КРАЯ АПОНЕВРОЗА ШИРОКИХ МЫШЦ ЖИВОТА",
+            "a": [
+                {"option": "1) нижний лоскут подводят под верхний",      "correct": true},
+                {"option": "2) верхний лоскут подшивают к нижнему",     "correct": false},
+                {"option": "3) правый лоскут накладывают на левый",      "correct": false},
+                {"option": "4) левый лоскут накладывают на правый",     "correct": false},
+	{"option": "5) наклыдывают кисетный шов",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПУПОЧНОГО КОЛЬЦА  ПРИ ПУПОЧНОЙ ГРЫЖЕ МЕТОДОМ  САПЕЖКО  ПУПОЧНОЕ КОЛЬЦО РАССЕКАЮТ РАЗРЕЗОМ",
+            "a": [
+                {"option": "1) продольным",      "correct": true},
+                {"option": "2) косым",     "correct": false},
+                {"option": "3) поперечным",      "correct": false},
+                {"option": "4) окаймляющим",     "correct": false},
+	{"option": "5) крестообразным",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПУПОЧНОГО КОЛЬЦА  ПРИ ПУПОЧНОЙ ГРЫЖЕ МЕТОДОМ  САПЕЖКО  ПРИ СШИВАНИИ КРАЕВ АПОНЕВРОЗА ШИРОКИХ МЫШЦ ЖИВОТА  ПЕРВЫМ  РЯДОМ ШВОВ ПОДШИВАЮТ",
+            "a": [
+                {"option": "1) левый лоскут апоневроза к правому по типу «конец в конец»",      "correct": false},
+                {"option": "2) верхний лоскут апоневроза к нижнему",     "correct": false},
+                {"option": "3) нижний лоскут апоневроза к верхнему",      "correct": false},
+                {"option": "4) правый лоскут апоневроза к задней стенке влагалища левой прямой мышцы живота",     "correct": true},
+	{"option": "5) левый лоскут апоневроза к задней стенке влагалища правой прямой мышцы живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПУПОЧНОГО КОЛЬЦА  ПРИ ПУПОЧНОЙ ГРЫЖЕ МЕТОДОМ  САПЕЖКО  ПРИ СШИВАНИИ КРАЕВ АПОНЕВРОЗА ШИРОКИХ МЫШЦ ЖИВОТА  ВТОРЫМ  РЯДОМ ШВОВ ПОДШИВАЮТ",
+            "a": [
+                {"option": "1) левый лоскут апоневроза к правому по типу «конец в конец»",      "correct": false},
+                {"option": "2) верхний лоскут апоневроза к нижнему",     "correct": false},
+                {"option": "3) нижний лоскут апоневроза к верхнему",      "correct": false},
+                {"option": "4) правый лоскут апоневроза к задней стенке влагалища левой прямой мышцы живота",     "correct": false},
+	{"option": "5) левый лоскут апоневроза к задней стенке влагалища правой прямой мышцы живота",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПУПОЧНОГО КОЛЬЦА  ПРИ ПУПОЧНОЙ ГРЫЖЕ МЕТОДОМ  ЛЕКСЕРА  ПЕРВЫМ РЯДОМ ШВОВ НА ПУПОЧНОЕ КОЛЬЦО НАКЛАДЫВАЮТ",
+            "a": [
+                {"option": "1) П-образные швы",      "correct": false},
+                {"option": "2) кисетный шов",     "correct": true},
+                {"option": "3) узловые швы",      "correct": false},
+                {"option": "4) Z-образный шов",     "correct": false},
+	{"option": "5) шов Мультановского",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПУПОЧНОГО КОЛЬЦА  ПРИ ПУПОЧНОЙ ГРЫЖЕ МЕТОДОМ  ЛЕКСЕРА  ВТОРОЙ РЯД ШВОВ НАКЛАДЫВАЮТ НА",
+            "a": [
+                {"option": "1) правый и левый лоскуты апоневроза широких мышц живота",      "correct": false},
+                {"option": "2) правый и левый лоскуты апоневроза широких мышц живота",     "correct": false},
+                {"option": "3) пупочное кольцо",      "correct": false},
+                {"option": "4) поперечную фасцию",     "correct": false},
+	{"option": "5) передние стенки влагалищ прямых мышц живота",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПУПОЧНОГО КОЛЬЦА  ПРИ ПУПОЧНОЙ ГРЫЖЕ МЕТОДОМ  ЛЕКСЕРА  НА ПЕРЕДНИЕ СТЕНКИ ВЛАГАЛИЩ ПРЯМЫХ МЫШЦ ЖИВОТА НАКЛАДЫВАЮТ",
+            "a": [
+                {"option": "1) П-образные швы",      "correct": false},
+                {"option": "2) кисетный шов",     "correct": false},
+                {"option": "3) узловые швы",      "correct": true},
+                {"option": "4) Z-образный шов",     "correct": false},
+	{"option": "5) шов Мультановского",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ТОТАЛЬНОЙ СРЕДИННОЙ ЛАПАРОТОМИИ ПУПОЧНОЕ КОЛЬЦО",
+            "a": [
+                {"option": "1) обходят сверху",      "correct": false},
+                {"option": "2) обходят снизу",     "correct": false},
+                {"option": "3) обходят справа",      "correct": false},
+                {"option": "4) обходят слева",     "correct": true},
+	{"option": "5) рассекают",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "НИЖНЮЮ  СРЕДИННУЮ ЛАПАРОТОМИЮ ОБЫЧНО ВЫПОЛНЯЮТ С РАССЕЧЕНИЕМ",
+            "a": [
+                {"option": "1) белой линии живота",      "correct": false},
+                {"option": "2) правой прямой мышцы живота",     "correct": false},
+                {"option": "3) левой прямой мышцы живота",      "correct": false},
+                {"option": "4) передней пластинки влагалища прямой мышцы живота справа",     "correct": false},
+	{"option": "5) передней пластинки влагалища прямой мышцы живота слева",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ВЕРХНЮЮ  СРЕДИННУЮ ЛАПАРОТОМИЮ ОБЫЧНО ВЫПОЛНЯЮТ С РАССЕЧЕНИЕМ",
+            "a": [
+                {"option": "1) белой линии живота",      "correct": true},
+                {"option": "2) правой прямой мышцы живота",     "correct": false},
+                {"option": "3) левой прямой мышцы живота",      "correct": false},
+                {"option": "4) передней пластинки влагалища прямой мышцы живота справа",     "correct": false},
+	{"option": "5) передней пластинки влагалища прямой мышцы живота слева",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ТРАНСРЕКТАЛЬНЫЙ РАЗРЕЗ ПРОВОДИТСЯ ЧЕРЕЗ",
+            "a": [
+                {"option": "1) переднюю стенку прямой кишки",      "correct": false},
+                {"option": "2) заднебоковую стенку прямой кишки",     "correct": false},
+                {"option": "3) толщу прямой мышцы живота у ее латерального края",      "correct": false},
+                {"option": "4) толщу прямой мышцы живота над серединой ее ширины",     "correct": true},
+	{"option": "5) толщу прямой мышцы живота у ее медиального края",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПО  ЛЕНАНДЕРУ  ПРОИЗВОДЯТ ЛАПАРОТОМИЮ РАЗРЕЗОМ",
+            "a": [
+                {"option": "1) срединным",      "correct": false},
+                {"option": "2) трансректальным",     "correct": false},
+                {"option": "3) параректальным",      "correct": true},
+                {"option": "4) косым",     "correct": false},
+	{"option": "5) поперечным",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "«ПЕРЕМЕННЫЙ  РАЗРЕЗ» ПРЕДПОЛАГАЕТ",
+            "a": [
+                {"option": "1) послойное рассечение слоев переднебоковой брюшной стенки при срединной лапаротомии",      "correct": false},
+                {"option": "2) послойное рассечение слоев переднебоковой брюшной стенки при трансректальном доступе",     "correct": false},
+                {"option": "3) сочетание продольных и поперечных разрезов",      "correct": false},
+                {"option": "4) послойное рассечение мышц переднебоковой брюшной стенки в направлении разреза",     "correct": false},
+	{"option": "5) послойное раздвигание мышечных волокон переднебоковой брюшной стенки тупым способом",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "КОМБИНИРОВАННЫЙ  РАЗРЕЗ ПРЕДПОЛАГАЕТ",
+            "a": [
+                {"option": "1) послойное рассечение слоев переднебоковой брюшной стенки при срединной лапаротомии",      "correct": false},
+                {"option": "2) послойное рассечение слоев переднебоковой брюшной стенки при трансректальном доступе",     "correct": false},
+                {"option": "3) сочетание продольных и поперечных разрезов",      "correct": true},
+                {"option": "4) послойное рассечение мышц переднебоковой брюшной стенки в направлении разреза",     "correct": false},
+	{"option": "5) послойное раздвигание мышечных волокон переднебоковой брюшной стенки тупым способом",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+}
+
+    ]}});
+
+    $('#slickQuiz11').slickQuiz({json: {"info": {
+        "name":    "Тестовые задания по теме №11",
+        "main":    "<p>Паховая область. Паховый, бедренный, запирательный каналы. Паховые, бедренные грыжи</p>",
+        "results": "<p>Этот тест был под силу не каждому. Ты молодец, приходи еще.</p>"
+    },
+    "questions": [
+      {
+            "q": "ВЕРХНЕЙ  СТЕНКОЙ ПАХОВОГО ТРЕУГОЛЬНИКА ЯВЛЯЕТСЯ ГОРИЗОНТАЛЬНАЯ ЛИНИЯ, ПРОВЕДЕННАЯ",
+            "a": [
+                {"option": "1) на 2 см ниже linea bispinarum",      "correct": false},
+                {"option": "2) от границы между наружной и средней третью паховой связки до пересечения с латеральным краем прямой мышцы живота",     "correct": true},
+                {"option": "3) от середины паховой связки до пересечения с латеральным краем прямой мышцы живота",      "correct": false},
+                {"option": "4) от границы между средней и внутренней третью паховой связки до пересечения с латеральным краем прямой мышцы живота",     "correct": false},
+	{"option": "5) на 5 см выше лобкового симфиза",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛАТЕРАЛЬНОЙ  СТЕНКОЙ ПАХОВОГО ТРЕУГОЛЬНИКА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) паховая связка",      "correct": true},
+                {"option": "2) латеральный край прямой мышцы живота",     "correct": false},
+                {"option": "3) вертикальная линия, проведенная через переднюю верхнюю ость крыла подвздошной кости",      "correct": false},
+                {"option": "4) вертикальная линия, проведенная через середину паховой связки",     "correct": false},
+	{"option": "5) линия, проведенная на 2 см выше и параллельно паховой связке",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "МЕДИАЛЬНОЙ  СТЕНКОЙ ПАХОВОГО ТРЕУГОЛЬНИКА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) белая линия живота",      "correct": false},
+                {"option": "2) медиальный край прямой мышцы живота",     "correct": false},
+                {"option": "3) латеральный край прямой мышцы живота",      "correct": true},
+                {"option": "4) вертикальная линия, проведенная через середину ширины прямой мышцы живота",     "correct": false},
+	{"option": "5) вертикальная линия, проведенная через середину паховой связки",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "НИЖНЕЙ  ГРАНИЦЕЙ ПАХОВОГО ПРОМЕЖУТКА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) нижний край наружной косой мышцы живота",      "correct": false},
+                {"option": "2) паховая связка",     "correct": true},
+                {"option": "3) латеральный край прямой мышцы живота",      "correct": false},
+                {"option": "4) медиальный край прямой мышцы живота",     "correct": false},
+	{"option": "5) свободный нижний край внутренней косой и поперечной мышц живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ВЕРХНЕЙ  ГРАНИЦЕЙ ПАХОВОГО ПРОМЕЖУТКА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) нижний край наружной косой мышцы живота",      "correct": false},
+                {"option": "2) паховая связка",     "correct": false},
+                {"option": "3) латеральный край прямой мышцы живота",      "correct": false},
+                {"option": "4) медиальный край прямой мышцы живота",     "correct": false},
+	{"option": "5) свободный нижний край внутренней косой и поперечной мышц живота",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "МЕДИАЛЬНОЙ  ГРАНИЦЕЙ ПАХОВОГО ПРОМЕЖУТКА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) нижний край наружной косой мышцы живота",      "correct": false},
+                {"option": "2) паховая связка",     "correct": false},
+                {"option": "3) латеральный край прямой мышцы живота",      "correct": true},
+                {"option": "4) медиальный край прямой мышцы живота",     "correct": false},
+	{"option": "5) свободный нижний край внутренней косой и поперечной мышц живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПЕРЕДНЕЙ  СТЕНКОЙ ПАХОВОГО КАНАЛА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) фасция Томсона",      "correct": false},
+                {"option": "2) апоневроз наружной косой мышцы живота",     "correct": true},
+                {"option": "3) семенной канатик",      "correct": false},
+                {"option": "4) паховая связка",     "correct": false},
+	{"option": "5) апоневроз внутренней косой мышцы живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЗАДНЕЙ  СТЕНКОЙ ПАХОВОГО КАНАЛА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) поперечная фасция",      "correct": true},
+                {"option": "2) поперечная мышца живота",     "correct": false},
+                {"option": "3) внутренняя косая мышца живота",      "correct": false},
+                {"option": "4) париетальная брюшина",     "correct": false},
+	{"option": "5) паховая связка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПОВЕРХНОСТНОЕ  ПАХОВОЕ КОЛЬЦО ОБРАЗОВАНО",
+            "a": [
+                {"option": "1) углублением поперечной фасции",      "correct": false},
+                {"option": "2) лакунарной и паховой связками",     "correct": false},
+                {"option": "3) нижними краями внутренней косой и поперечной мышц живота и паховой связкой",      "correct": false},
+                {"option": "4) латеральной паховой ямкой",     "correct": false},
+	{"option": "5) ножками апоневроза наружной косой мышцы живота",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПОВЕРХНОСТНОЕ  ПАХОВОЕ КОЛЬЦО ПРОЕКЦИОННО СООТВЕТСТВУЕТ",
+            "a": [
+                {"option": "1) надпузырной ямке",      "correct": false},
+                {"option": "2) медиальной пупочной складке",     "correct": false},
+                {"option": "3) медиальной паховой ямке",      "correct": true},
+                {"option": "4) латеральной пупочной складке",     "correct": false},
+	{"option": "5) латеральной паховой ямке",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ГЛУБОКОЕ  ПАХОВОЕ КОЛЬЦО ОБРАЗОВАНО",
+            "a": [
+                {"option": "1) углублением поперечной фасции",      "correct": true},
+                {"option": "2) лакунарной и паховой связками",     "correct": false},
+                {"option": "3) нижними краями внутренней косой и поперечной мышц живота и паховой связкой",      "correct": false},
+                {"option": "4) латеральной паховой ямкой",     "correct": false},
+	{"option": "5) ножками апоневроза наружной косой мышцы живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПОВЕРХНОСТНОЕ  ПАХОВОЕ КОЛЬЦО ПРОЕКЦИОННО СООТВЕТСТВУЕТ",
+            "a": [
+                {"option": "1) надпузырной ямке",      "correct": false},
+                {"option": "2) медиальной пупочной складке",     "correct": false},
+                {"option": "3) медиальной паховой ямке",      "correct": false},
+                {"option": "4) медиальной паховой ямке",     "correct": false},
+	{"option": "5) латеральной паховой ямке",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "СОДЕРЖИМЫМ ПАХОВОГО КАНАЛА У ЖЕНЩИН ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) семенной канатик",      "correct": false},
+                {"option": "2) паховая связка",     "correct": false},
+                {"option": "3) широкая связка матки",      "correct": false},
+                {"option": "4) круглая связка матки",     "correct": true},
+	{"option": "5) маточные трубы и яичники",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "К СЕМЕННОМУ КАНАТИКУ В ПАХОВОМ КАНАЛЕ  СНИЗУ  ПРИЛЕЖИТ НЕРВ",
+            "a": [
+                {"option": "1) ХII подреберный",      "correct": false},
+                {"option": "2) подвздошно-паховый",     "correct": true},
+                {"option": "3) подвздошно-подчревный",      "correct": false},
+                {"option": "4) бедренно-половой",     "correct": false},
+	{"option": "5) бедренный",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ДЛИНА  БЕДРЕННОГО  КАНАЛА ПРИ СФОРМИРОВАВШЕЙСЯ БЕДРЕННОЙ ГРЫЖЕ ЗАВИСИТ ОТ",
+            "a": [
+                {"option": "1) задней стенки",      "correct": false},
+                {"option": "2) передней стенки",     "correct": true},
+                {"option": "3) латеральной стенки",      "correct": false},
+                {"option": "4) медиальной стенки",     "correct": false},
+	{"option": "5) верхней стенки",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПЕРЕДНЕЙ  СТЕНКОЙ  БЕДРЕННОГО  КАНАЛА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) бедренная вена",      "correct": false},
+                {"option": "2) бедренная артерия",     "correct": false},
+                {"option": "3) глубокий листок широкой фасции бедра",      "correct": false},
+                {"option": "4) поверхностный листок широкой фасции бедра",     "correct": true},
+	{"option": "5) гребешковая фасция",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЗАДНЕЙ  СТЕНКОЙ  БЕДРЕННОГО  КАНАЛА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) бедренная вена",      "correct": false},
+                {"option": "2) бедренная артерия",     "correct": false},
+                {"option": "3) глубокий листок широкой фасции бедра",      "correct": false},
+                {"option": "4) поверхностный листок широкой фасции бедра",     "correct": true},
+	{"option": "5) гребешковая фасция",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЗАДНЕНИЖНЕЙ  СТЕНКОЙ  ВНУТРЕННЕГО  БЕДРЕННОГО  КОЛЬЦА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) влагалище бедренной вены",      "correct": false},
+                {"option": "2) гребенчатая фасция (связка Купера)",     "correct": true},
+                {"option": "3) паховая связка",      "correct": false},
+                {"option": "4) влагалище бедренной артерии",     "correct": false},
+	{"option": "5) лакунарная связка (Жимбернатова)",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "МЕДИАЛЬНОЙ  СТЕНКОЙ  ВНУТРЕННЕГО  БЕДРЕННОГО  КОЛЬЦА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) влагалище бедренной вены",      "correct": false},
+                {"option": "2) паховая связка",     "correct": false},
+                {"option": "3) лакунарная связка (Жимбернатова)",      "correct": true},
+                {"option": "4) нижний край внутренней мышцы живота",     "correct": false},
+	{"option": "5) влагалище прямой мышцы живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ВЕРХНЕЙ  ГРАНИЦЕЙ  НАРУЖНОГО  БЕДРЕННОГО  КОЛЬЦА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) гребешковая фасция",      "correct": false},
+                {"option": "2) паховая связка",     "correct": false},
+                {"option": "3) пояснично-подвздошная мышца",      "correct": false},
+                {"option": "4) свободные края внутренней косой и поперечной мышц",     "correct": false},
+	{"option": "5) верхний серп широкой фасции бедра",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "НИЖНЕЙ  ГРАНИЦЕЙ  НАРУЖНОГО  БЕДРЕННОГО  КОЛЬЦА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) гребешковая мышца",      "correct": false},
+                {"option": "2) влагалище бедренной вены",     "correct": false},
+                {"option": "3) паховая связка",      "correct": false},
+                {"option": "4) нижний серп широкой фасции бедра",     "correct": true},
+	{"option": "5) портняжная мышца",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "«КОРОНА СМЕРТИ» В ОБЛАСТИ ВНУТРЕННЕГО КОЛЬЦА БЕДРЕННОГО КАНАЛА, КАК ПРАВИЛО, ПРОХОДИТ ЧЕРЕЗ ЕГО ГРАНИЦУ",
+            "a": [
+                {"option": "1) верхнюю",      "correct": false},
+                {"option": "2) нижнюю",     "correct": false},
+                {"option": "3) латеральную",      "correct": false},
+                {"option": "4) медиальную",     "correct": true},
+	{"option": "5) заднюю",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "«КОРОНА СМЕРТИ» – ЭТО (В 80% СЛУЧАЕВ) АНАСТОМОЗ МЕЖДУ ЛОБКОВЫМИ ВЕТВЯМИ АРТЕРИЙ",
+            "a": [
+                {"option": "1) бедренной и запирательной",      "correct": false},
+                {"option": "2) нижней надчревной и запирательной",     "correct": true},
+                {"option": "3) верхней и нижней надчревных",      "correct": false},
+                {"option": "4) запирательной и наружной подвздошной",     "correct": false},
+	{"option": "5) внутренней подвздошной и бедренной",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "«КОРОНА СМЕРТИ» – ЭТО (В 10-20% СЛУЧАЕВ) ВАРИАНТ ОТХОЖДЕНИЯ ЗАПИРАТЕЛЬНОЙ АРТЕРИИ ОТ",
+            "a": [
+                {"option": "1) бедренной",      "correct": false},
+                {"option": "2) нижней надчревной",     "correct": true},
+                {"option": "3) верхней надчревной",      "correct": false},
+                {"option": "4) наружной подвздошной",     "correct": false},
+	{"option": "5) внутренней подвздошной",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ  КОСОЙ  ПРИОБРЕТЕННОЙ  ПАХОВОЙ ГРЫЖЕ ЭЛЕМЕНТЫ СЕМЕННОГО КАНАТИКА ПО ОТНОШЕНИЮ К ГРЫЖЕВОМУ МЕШКУ НАХОДЯТСЯ",
+            "a": [
+                {"option": "1) латерально",      "correct": false},
+                {"option": "2) спереди",     "correct": false},
+                {"option": "3) медиально",      "correct": true},
+                {"option": "4) сзади",     "correct": false},
+	{"option": "5) внутри мешка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ  ПРЯМОЙ  ПРИОБРЕТЕННОЙ ПАХОВОЙ ГРЫЖЕ ЭЛЕМЕНТЫ СЕМЕННОГО КАНАТИКА ПО ОТНОШЕНИЮ К ГРЫЖЕВОМУ МЕШКУ НАХОДЯТСЯ",
+            "a": [
+                {"option": "1) латерально",      "correct": true},
+                {"option": "2) медиально",     "correct": false},
+                {"option": "3) сзади",      "correct": false},
+                {"option": "4) спереди",     "correct": false},
+	{"option": "5) внутри мешка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "К ВОЗНИКНОВЕНИЮ ВРОЖДЕННОЙ ПАХОВОЙ ГРЫЖИ МОЖЕТ ПРИВЕСТИ НЕЗАРАЩЕНИЕ",
+            "a": [
+                {"option": "1) мочевого протока",      "correct": false},
+                {"option": "2) желточно-кишечного протока",     "correct": false},
+                {"option": "3) пупочной вены",      "correct": false},
+                {"option": "4) пупочной артерии",     "correct": false},
+	{"option": "5) влагалищного отростка брюшины",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "К ВОЗНИКНОВЕНИЮ ПАХОВОЙ ГРЫЖИ ПРИВОДИТ НЕСОСТОЯТЕЛЬНОСТЬ СТЕНКИ ПАХОВОГО КАНАЛА",
+            "a": [
+                {"option": "1) передней",      "correct": false},
+                {"option": "2) верхней",     "correct": false},
+                {"option": "3) нижней",      "correct": true},
+                {"option": "4) задней",     "correct": false},
+	{"option": "5) медиальной",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГРЫЖЕСЕЧЕНИИ ПО ПОВОДУ ВРОЖДЕННОЙ ПАХОВОЙ ГРЫЖИ  НА ПЕРВОМ ЭТАПЕ  ХИРУРГ ОБЯЗАН ВЫПОЛНИТЬ",
+            "a": [
+                {"option": "1) оперативный доступ",      "correct": true},
+                {"option": "2) выделение грыжевого мешка",     "correct": false},
+                {"option": "3) прошивание у шейки",      "correct": false},
+                {"option": "4) вскрытие и вправление содержимого в брюшную полость",     "correct": false},
+	{"option": "5) пластику пахового канала",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГРЫЖЕСЕЧЕНИИ ПО ПОВОДУ ВРОЖДЕННОЙ ПАХОВОЙ ГРЫЖИ  НА ВТОРОМ ЭТАПЕ  ХИРУРГ ОБЯЗАН ВЫПОЛНИТЬ",
+            "a": [
+                {"option": "1) пластику пахового канала",      "correct": false},
+                {"option": "2) осмотр и вправление содержимого в брюшную полость",     "correct": false},
+                {"option": "3) выделение и вскрытие грыжевого мешка",      "correct": true},
+                {"option": "4) иссечение оболочек мешка на семенном канатике",     "correct": false},
+	{"option": "5) послойное ушивание раны",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГРЫЖЕСЕЧЕНИИ ПО ПОВОДУ ПАХОВОЙ ГРЫЖИ  НА ТРЕТЬЕМ ЭТАПЕ  ХИРУРГ ОБЯЗАН ВЫПОЛНИТЬ",
+            "a": [
+                {"option": "1) оперативный доступ",      "correct": false},
+                {"option": "2) послойное ушивание раны",     "correct": false},
+                {"option": "3) выделение и вскрытие грыжевого мешка",      "correct": false},
+                {"option": "4) осмотр грыжевого содержимого и вправление в брюшную полость",     "correct": true},
+	{"option": "5) пластику пахового канала",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПЕРЕД РАССЕЧЕНИЕМ УЩЕМЛЯЮЩЕГО КОЛЬЦА ПРИ  УЩЕМЛЕННОЙ  ПАХОВОЙ ГРЫЖЕ ХИРУРГ ОБЯЗАН ВЫПОЛНИТЬ",
+            "a": [
+                {"option": "1) ушивание операционной раны",      "correct": false},
+                {"option": "2) обработку грыжевого мешка",     "correct": false},
+                {"option": "3) обертывание грыжевого содержимого салфетками, смоченными теплым физраствором",      "correct": false},
+                {"option": "4) фиксацию грыжевого содержимого (руками, влажной салфеткой)",     "correct": true},
+	{"option": "5) пластику пахового канала",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПЕРЕДНЮЮ  СТЕНКУ ПАХОВОГО КАНАЛА УКРЕПЛЯЮТ ПРИ ПЛАСТИКЕ ПО",
+            "a": [
+                {"option": "1) Бассини",      "correct": false},
+                {"option": "2) Шоулдайсу",     "correct": false},
+                {"option": "3) Постемпски",      "correct": false},
+                {"option": "4) Мартынову",     "correct": true},
+	{"option": "5) Мейо",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЗАДНЮЮ  СТЕНКУ ПАХОВОГО КАНАЛА УКРЕПЛЯЮТ ПРИ ПЛАСТИКЕ ПО",
+            "a": [
+                {"option": "1) Краснобаеву",      "correct": false},
+                {"option": "2) Мартынову",     "correct": false},
+                {"option": "3) Постемпски",      "correct": true},
+                {"option": "4) Жирару-Спасокукоцкому",     "correct": false},
+	{"option": "5) Лексеру",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  КРАСНОБАЕВУ  ВЫПОЛНЯЮТ",
+            "a": [
+                {"option": "1) рассечение апоневроза наружной косой мышцы живота и создание из него дубликатуры",      "correct": false},
+                {"option": "2) создание дубликатуры из нерассеченного апоневроза наружной косой мышцы живота",     "correct": true},
+                {"option": "3) суживание только наружного пахового кольца",      "correct": false},
+                {"option": "4) суживание только пахового промежутка",     "correct": false},
+	{"option": "5) укрепление передней и задней стенок пахового канала",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  КРАСНОБАЕВУ  ИСПОЛЬЗУЮТ ТКАНИ",
+            "a": [
+                {"option": "1) паховой связки",      "correct": false},
+                {"option": "2) апоневроза наружной косой мышцы живота",     "correct": true},
+                {"option": "3) внутренней косой мышцы живота",      "correct": false},
+                {"option": "4) поперечной мышцы живота",     "correct": false},
+	{"option": "5) поперечной фасции",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  РУ-ОППЕЛЮ  ВЫПОЛНЯЮТ",
+            "a": [
+                {"option": "1) рассечение апоневроза наружной косой мышцы и создание из него дубликатуры",      "correct": false},
+                {"option": "2) создание дубликатуры из апоневроза наружной косой мышцы без рассечения последнего",     "correct": false},
+                {"option": "3) сужение только наружного пахового кольца",      "correct": true},
+                {"option": "4) укрепление задней стенки канала",     "correct": false},
+	{"option": "5) укрепление передней и задней стенок канала",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  МАРЫНОВУ  ВЫПОЛНЯЮТ",
+            "a": [
+                {"option": "1) укрепление задней стенки пахового канала после рассечения передней",      "correct": false},
+                {"option": "2) укрепление передней стенки пахового канала без ее рассечения",     "correct": false},
+                {"option": "3) сшивание двух листков апоневроза наружной косой мышцы живота конец в конец",      "correct": false},
+                {"option": "4) сшивание двух листков апоневроза наружной косой мышцы живота в виде дубликатуры",     "correct": true},
+	{"option": "5) сшивание верхннего листка апоневроза наружной косой мышцы живота и паховой связки",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  СПАСОКУКОЦКОМУ  УКРЕПЛЯЮТ ЕГО СТЕНКУ",
+            "a": [
+                {"option": "1) переднюю",      "correct": true},
+                {"option": "2) заднюю",     "correct": false},
+                {"option": "3) заднюю и верхнюю",      "correct": false},
+                {"option": "4) нижнюю",     "correct": false},
+	{"option": "5) верхнюю",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  СПАСОКУКОЦКОМУ  В  ПЕРВЫЙ  РЯД ШВОВ ЗАХВАТЫВАЮТ",
+            "a": [
+                {"option": "1) наружную косую (медиальный листок), внутреннюю косую и поперечную мышцы живота и паховую связку",      "correct": true},
+                {"option": "2) внутреннюю косую мышцы живота и паховую связку",     "correct": false},
+                {"option": "3) медиальный листок апоневроза наружной косой мышцы живота и паховую связку",      "correct": false},
+                {"option": "4) латеральный листок апоневроза наружной косой мышцы живота и паховую связку",     "correct": false},
+	{"option": "5) внутреннюю косую и поперечную мышцы живота и паховую связку",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  СПАСОКУКОЦКОМУ  ВО  ВТОРОЙ  РЯД ШВОВ ЗАХВАТЫВАЮТ",
+            "a": [
+                {"option": "1) латеральный листок апоневроза наружной косой мышцы живота и паховую связку",      "correct": false},
+                {"option": "2) медиальный и латеральный листки апоневроза наружной косой мышцы живота (дубликатура)",     "correct": true},
+                {"option": "3) медиальный и латеральный листки апоневроза наружной косой мышцы живота (конец в конец)",      "correct": false},
+                {"option": "4) медиальный листок апоневроза наружной косой мышцы живота и паховую связку",     "correct": false},
+	{"option": "5) внутреннюю косую и поперечную мышцы живота и паховую связку",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  ЖИРАРУ  НЕ ИСПОЛЬЗУЮТ",
+            "a": [
+                {"option": "1) паховую связку",      "correct": false},
+                {"option": "2) поперечную фасцию",     "correct": true},
+                {"option": "3) поперечную мышцу",      "correct": false},
+                {"option": "4) наружную косую мышцу живота",     "correct": false},
+	{"option": "5) внутреннюю косую мышцу живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  ЖИРАРУ  ВО  ВТОРОЙ  РЯД ШВОВ ЗАХВАТЫВАЮТ",
+            "a": [
+                {"option": "1) латеральный листок апоневроза наружной косой мышцы живота и паховую связку",      "correct": false},
+                {"option": "2) медиальный листок апоневроза наружной косой мышцы живота и паховую связку",     "correct": true},
+                {"option": "3) внутреннюю косую мышцу живота и паховую связку",      "correct": false},
+                {"option": "4) глубокую пластинку поверхностной фасции (фасцию Томсона) и паховую связку",     "correct": false},
+	{"option": "5) латеральный и медиальный листки апоневроза наружной косой мышцы живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  ЖИРАРУ  В  ТРЕТИЙ  РЯД ШВОВ ЗАХВАТЫВАЮТ",
+            "a": [
+                {"option": "1) латеральный и медиальный листки апоневроза наружной косой мышцы живота (дубликатура)",      "correct": true},
+                {"option": "2) латеральный и медиальный листки апоневроза наружной косой мышцы живота (конец в конец)",     "correct": false},
+                {"option": "3) латеральный листок апоневроза наружной косой мышцы живота и паховую связку",      "correct": false},
+                {"option": "4) медиальный листок апоневроза наружной косой мышцы живота и паховую связку",     "correct": false},
+	{"option": "5) внутреннюю косую и поперечную мышцы живота и паховую связку",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  ЖИРАРУ  В  ТРЕТИЙ  РЯД ШВОВ ЗАХВАТЫВАЮТ",
+            "a": [
+                {"option": "1) латеральный и медиальный листки апоневроза наружной косой мышцы живота (дубликатура)",      "correct": true},
+                {"option": "2) латеральный и медиальный листки апоневроза наружной косой мышцы живота (конец в конец)",     "correct": false},
+                {"option": "3) латеральный листок апоневроза наружной косой мышцы живота и паховую связку",      "correct": false},
+                {"option": "4) медиальный листок апоневроза наружной косой мышцы живота и паховую связку",     "correct": false},
+	{"option": "5) внутреннюю косую и поперечную мышцы живота и паховую связку",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО ЖИРАРУ-СПАСОКУКОЦКОМУ  ШВАМИ КИМБАРОВСКОГО  ВО  ВТОРОЙ  РЯД ШВОВ ЗАХВАТЫВАЮТ",
+            "a": [
+                {"option": "1) внутреннюю косую мышцу живота и паховую связку",      "correct": false},
+                {"option": "2) поперечную мышцу живота и паховую связку",     "correct": false},
+                {"option": "3) поперечную фасцию и паховую связку",      "correct": false},
+                {"option": "4) оба листка апоневроза наружной косой мышцы живота",     "correct": true},
+	{"option": "5) внутреннюю косую и поперечную мышцы живота и паховую связку",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  БАССИНИ  В  ПЕРВЫЙ  РЯД ШВОВ ЗАХВАТЫВАЮТ",
+            "a": [
+                {"option": "1) латеральный листок апоневроза наружной косой мышцы живота и паховую связку",      "correct": false},
+                {"option": "2) медиальный листок апоневроза наружной косой мышцы живота и паховую связку позади семенного канатика",     "correct": false},
+                {"option": "3) медиальный листок апоневроза наружной косой мышцы живота и поперечную фасцию позади семенного канатика",      "correct": false},
+                {"option": "4) внутреннюю косую, поперечную мышцы живота и поперечную фасцию позади семенного канатика",     "correct": false},
+	{"option": "5) внутреннюю косую и поперечную мышцы живота и паховую связку позади семенного канатика",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  ПАХОВОГО  КАНАЛА ПО  БАССИНИ  ВО  ВТОРОЙ  РЯД ШВОВ ЗАХВАТЫВАЮТ",
+            "a": [
+                {"option": "1) внутреннюю косую мышцу живота и паховую связку",      "correct": false},
+                {"option": "2) медиальный листок апоневроза наружной косой мышцы живота и внутреннюю косую мышцу живота",     "correct": false},
+                {"option": "3) медиальный и латеральный листки апоневроза наружной косой мышцы живота (конец в конец)",      "correct": true},
+                {"option": "4) поперечную фасцию, поперечную мышцу и паховую связку",     "correct": false},
+	{"option": "5) внутреннюю косую, поперечную мышцы живота и влагалище прямой мышцы",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ОПЕРАТИВНОМ ДОСТУПЕ ПО  БАССИНИ  ПО ПОВОДУ  БЕДРЕННОЙ  ГРЫЖИ РАССЕКАЮ ТКАНИ",
+            "a": [
+                {"option": "1) лакунарную связку",      "correct": false},
+                {"option": "2) поверхностный листок широкой фасции бедра",     "correct": true},
+                {"option": "3) гребешковую фасцию",      "correct": false},
+                {"option": "4) паховую связку",     "correct": false},
+	{"option": "5) глубокий листок широкой фасции бедра",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  БЕДРЕННОГО  КАНАЛА ПО  БАССИНИ  СШИВАЮТ ЕГО СТЕНКИ",
+            "a": [
+                {"option": "1) нижнезаднюю и медиальную",      "correct": false},
+                {"option": "2) нижнезаднюю и латеральную",     "correct": false},
+                {"option": "3) латеральную и медиальную",      "correct": false},
+                {"option": "4) передневерхнюю и нижнезаднюю",     "correct": true},
+	{"option": "5) передневерхнюю и медиальную",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "В МОМЕНТ ВЫПОЛНЕНИЯ ОПЕРАТИВНОГО ДОСТУПА ПРИ ГРЫЖЕСЕЧЕНИИ ПО  РУДЖИ  НИ В КОЕМ СЛУЧАЕ НЕ РАССЕКАЮТ",
+            "a": [
+                {"option": "1) кожу паховой области",      "correct": false},
+                {"option": "2) кожу верхней трети бедра",     "correct": true},
+                {"option": "3) апоневроз наружной косой мышцы живота",      "correct": false},
+                {"option": "4) внутреннюю косую мышцу живота",     "correct": false},
+	{"option": "5) поперечную фасцию",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  БЕДРЕННОГО  КАНАЛА ПО  РУДЖИ  СШИВАЮТ СТЕНКИ ВНУТРЕННЕГО БЕДРЕННОГО КОЛЬЦА",
+            "a": [
+                {"option": "1) верхнепереднюю и задненижнюю",      "correct": true},
+                {"option": "2) латеральную и медиальную",     "correct": false},
+                {"option": "3) латеральную и задненижнюю",      "correct": false},
+                {"option": "4) латеральную и верхнепереднюю",     "correct": false},
+	{"option": "5) медиальную и верхнепереднюю",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ПЛАСТИКЕ  БЕДРЕННОГО  КАНАЛА ПО  РУДЖИ  СШИВАЮТ",
+            "a": [
+                {"option": "1) паховую связку и подвздошно-поясничную мышцу",      "correct": false},
+                {"option": "2) паховую связку и гребешковую связку",     "correct": true},
+                {"option": "3) лакунарную связку и надкостницу лобковой кости",      "correct": false},
+                {"option": "4) лакунарную связку и влагалище бедренной вены",     "correct": false},
+	{"option": "5) паховую связку и лакунарную связку",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ВЫПОЛНЕНИИ ПЛАСТИКИ  БЕДРЕННОГО  КАНАЛА ПО  РУДЖИ-ПАРЛАВЕЧЧО  В ШОВ НЕЛЬЗЯ ЗАХВАТЫВАТЬ",
+            "a": [
+                {"option": "1) внутреннюю косую мышцу живота",      "correct": false},
+                {"option": "2) поперечную мышцу живота",     "correct": false},
+                {"option": "3) прямую мышцу живота",      "correct": true},
+                {"option": "4) паховую связку",     "correct": false},
+	{"option": "5) поперечную фасцию",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ВЫПОЛНЕНИИ ПЛАСТИКИ  БЕДРЕННОГО  КАНАЛА ПО  РУДЖИ-ПАРЛАВЕЧЧО  В ШОВ НЕЛЬЗЯ ЗАХВАТЫВАТЬ",
+            "a": [
+                {"option": "1) паховую связку",      "correct": false},
+                {"option": "2) гребешковую фасцию",     "correct": false},
+                {"option": "3) внутреннюю косую мышцу живота",      "correct": false},
+                {"option": "4) поперечную фасцию",     "correct": false},
+	{"option": "5) брюшину",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "СДАВЛЕНИЕ СЕМЕННОГО КАНАТИКА СФОРМИРОВАННЫМ ПОСЛЕ ПЛАСТИКИ ПОВЕРХНОСТНЫМ ПАХОВЫМ КОЛЬЦОМ МОЖЕТ ПРИВЕСТИ К ",
+            "a": [
+                {"option": "1) крипторхизму",      "correct": false},
+                {"option": "2) атрофии яичка",     "correct": true},
+                {"option": "3) бесплодию",      "correct": false},
+                {"option": "4) рецидиву грыжи",     "correct": false},
+	{"option": "5) перитониту",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "В ХОДЕ ОПЕРАЦИИ ПО ПОВОДУ УЩЕМЛЕННОЙ ПАХОВОЙ ГРЫЖИ ПРИ РАССЕЧЕНИИ УЩЕМЛЯЮЩЕГО КОЛЬЦА СЛЕДУЕТ ПОМНИТЬ ОБ ОПАСНОСТИ ПОВРЕЖДЕНИЯ ",
+            "a": [
+                {"option": "1) семенного канатика",      "correct": false},
+                {"option": "2) «короны смерти»",     "correct": true},
+                {"option": "3) бедренной артерии",      "correct": false},
+                {"option": "4) паховой связки",     "correct": false},
+	{"option": "5) нижних надчревных сосудов",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+}
+    ]}});
+
+    $('#slickQuiz12').slickQuiz({json: {"info": {
+        "name":    "Тестовые задания по теме №12",
+        "main":    "<p>Полость живота. Органы верхнего этажа брюшинной полости: желудок, двенадцатиперстная кишка</p>",
+        "results": "<p>Этот тест был под силу не каждому. Ты молодец, приходи еще.</p>"
+    },
+    "questions": [
+      {
+            "q": "ГРАНИЦЕЙ БРЮШНОЙ ПОЛОСТИ ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) поперечная мышца живота",      "correct": false},
+                {"option": "2) внутрибрюшная фасция",     "correct": true},
+                {"option": "3) париетальный листок брюшины",      "correct": false},
+                {"option": "4) висцеральный листок брюшины",     "correct": false},
+	{"option": "5) забрюшинное клетчаточное прстранство",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ГРАНИЦЕЙ БРЮШНОЙ ПОЛОСТИ ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) поперечная мышца живота",      "correct": false},
+                {"option": "2) внутрибрюшная фасция",     "correct": true},
+                {"option": "3) париетальный листок брюшины",      "correct": false},
+                {"option": "4) висцеральный листок брюшины",     "correct": false},
+	{"option": "5) забрюшинное клетчаточное прстранство",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "БРЮШИННАЯ ПОЛОСТЬ УСЛОВНО ДЕЛИТСЯ НА ВЕРХНИЙ И НИЖНИЙ ЭТАЖИ ПОСРЕДСТВОМ",
+            "a": [
+                {"option": "1) поперечной ободочной кишки",      "correct": false},
+                {"option": "2) линии, проведенной через большую кривизну желудка",     "correct": false},
+                {"option": "3) брыжейки поперечной ободочной кишки",      "correct": true},
+                {"option": "4) верхнего края поджелудочной железы",     "correct": false},
+	{"option": "5) нижнего края поджелудочной железы",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛЕВЫЙ  БОКОВОЙ КАНАЛ БРЮШНОЙ ПОЛОСТИ СООБЩАЕТСЯ С",
+            "a": [
+                {"option": "1) печеночной сумкой",      "correct": false},
+                {"option": "2) подпеченочным пространством",     "correct": false},
+                {"option": "3) полостью малого таза",      "correct": true},
+                {"option": "4) полостью сальниковой сумки",     "correct": false},
+	{"option": "5) левым брыжеечным синусом",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРАВЫЙ  БОКОВОЙ КАНАЛ БРЮШНОЙ ПОЛОСТИ НЕ ИМЕЕТ СООБЩЕНИЯ С",
+            "a": [
+                {"option": "1) печеночной сумкой",      "correct": false},
+                {"option": "2) подпеченочным пространством",     "correct": false},
+                {"option": "3) полостью малого таза",      "correct": false},
+                {"option": "4) полостью сальниковой сумки",     "correct": false},
+	{"option": "5) правым брыжеечным синусом",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ВЕРХНЕЙ  СТЕНКОЙ  ПРАВОГО  БРЫЖЕЕЧНОГО СИНУСА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) диафрагма",      "correct": false},
+                {"option": "2) задняя стенка желудка",     "correct": false},
+                {"option": "3) задненижняя поверхность печени",      "correct": false},
+                {"option": "4) брыжейка поперечной ободочной кишки",     "correct": true},
+	{"option": "5) большой сальник",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "МЕДИАЛЬНОЙ  СТЕНКОЙ  ПРАВОГО  БРЫЖЕЕЧНОГО СИНУСА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) восходящий отдел ободочной кишки",      "correct": false},
+                {"option": "2) нисходящий отдел ободочной кишки",     "correct": false},
+                {"option": "3) нижняя полая вена",      "correct": false},
+                {"option": "4) петли тощей кишки",     "correct": false},
+	{"option": "5) брыжейка тонкой кишки",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛЕТЕРАЛЬНОЙ  СТЕНКОЙ  ПРАВОГО  БРЫЖЕЕЧНОГО СИНУСА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) восходящий отдел ободочной кишки",      "correct": true},
+                {"option": "2) нисходящий отдел ободочной кишки",     "correct": false},
+                {"option": "3) боковая стенка живота",      "correct": false},
+                {"option": "4) петли тощей кишки",     "correct": false},
+	{"option": "5) брыжейка тонкой кишки",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "МЕДИАЛЬНОЙ  СТЕНКОЙ  ЛЕВОГО  БРЫЖЕЕЧНОГО СИНУСА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) восходящий отдел ободочной кишки",      "correct": false},
+                {"option": "2) нисходящий отдел ободочной кишки",     "correct": false},
+                {"option": "3) аорта",      "correct": false},
+                {"option": "4) петли тощей кишки",     "correct": false},
+	{"option": "5) брыжейка тонкой кишки",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛЕТЕРАЛЬНОЙ  СТЕНКОЙ  ЛЕВОГО  БРЫЖЕЕЧНОГО СИНУСА ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) восходящий отдел ободочной кишки",      "correct": false},
+                {"option": "2) нисходящий отдел ободочной кишки",     "correct": true},
+                {"option": "3) боковая стенка живота",      "correct": false},
+                {"option": "4) петли тощей кишки",     "correct": false},
+	{"option": "5) брыжейка тонкой кишки",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЗАДНЕЙ  СТЕНКОЙ  ПЕЧЕНОЧНОЙ  СУМКИ ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) диафрагма",      "correct": false},
+                {"option": "2) венечная связка печени",     "correct": true},
+                {"option": "3) задненижняя поверхность печени",      "correct": false},
+                {"option": "4) верхний полюс правой почки",     "correct": false},
+	{"option": "5) печеночно-двенадцатиперстная связка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "МЕДИАЛЬНОЙ  СТЕНКОЙ  ПЕЧЕНОЧНОЙ  СУМКИ ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) левая доля печени",      "correct": false},
+                {"option": "2) венечная связка печени",     "correct": false},
+                {"option": "3) печеночно-желудочная связка",      "correct": false},
+                {"option": "4) печеночно-двенадцатиперстная связка",     "correct": false},
+	{"option": "5) серповидная связка печени",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПЕРЕДНЕЙ  СТЕНКОЙ  ПРЕДЖЕЛУДОЧНОЙ  СУМКИ ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) передняя стенка желудка и желудочно-ободочная связка",      "correct": false},
+                {"option": "2) поперечная ободочная кишка",     "correct": false},
+                {"option": "3) брыжейка поперечной ободочной кишки",      "correct": false},
+                {"option": "4) диафрагмальная поверхность правой доли печени",     "correct": false},
+	{"option": "5) диафрагма, передняя брюшная стенка и висцеральная поверхность левой доли печени",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПЕРЕДНЕЙ  СТЕНКОЙ  САЛЬНИКОВОЙ  СУМКИ ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) нижняя поверхность печени и печеночно-двенадцатиперстная связка",      "correct": false},
+                {"option": "2) передняя стенка желудка",     "correct": false},
+                {"option": "3) печеночно-почечная связка",      "correct": false},
+                {"option": "4) печеночно-желудочная связка и задняя стенка желудка",     "correct": true},
+	{"option": "5) поджелудочная железа и париетальная брюшина",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "НИЖНЕЙ  СТЕНКОЙ  САЛЬНИКОВОЙ  СУМКИ ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) поперечная ободочная кишка",      "correct": false},
+                {"option": "2) желудочно-ободочная связка",     "correct": false},
+                {"option": "3) брыжейка поперечной ободочной кишки",      "correct": true},
+                {"option": "4) поджелудочная железа",     "correct": false},
+	{"option": "5) печеночно-двенадцатиперстная связка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЧЕРЕЗ ВИНСЛОВО ОТВЕРСТИЕ МОЖНО ПОПАСТЬ В ПОЛОСТЬ",
+            "a": [
+                {"option": "1) желудка",      "correct": false},
+                {"option": "2) поджелудочной железы",     "correct": false},
+                {"option": "3) малого сальника",      "correct": false},
+                {"option": "4) брюшины",     "correct": false},
+	{"option": "5) сальниковой сумки",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "НИЖНЕЙ  СТЕНКОЙ  САЛЬНИКОВОГО  ОТВЕРСТИЯ  ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) поперечная ободочная кишка",      "correct": false},
+                {"option": "2) почечно-двенадцатиперстная связка",     "correct": true},
+                {"option": "3) брыжейка поперечной ободочной кишки",      "correct": false},
+                {"option": "4) печеночно-двенадцатиперстная связка",     "correct": false},
+	{"option": "5) хвостатая доля печени",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ВЕРХНЕЙ  СТЕНКОЙ  САЛЬНИКОВОГО  ОТВЕРСТИЯ  ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) квадратная доля печени",      "correct": false},
+                {"option": "2) почечно-двенадцатиперстная связка",     "correct": false},
+                {"option": "3) брыжейка поперечной ободочной кишки",      "correct": false},
+                {"option": "4) печеночно-двенадцатиперстная связка",     "correct": false},
+	{"option": "5) хвостатая доля печени",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПЕРЕДНЕЙ  СТЕНКОЙ  САЛЬНИКОВОГО  ОТВЕРСТИЯ  ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) париетальная брюшина, покрывающая нижнюю полую вену",      "correct": false},
+                {"option": "2) почечно-двенадцатиперстная связка",     "correct": false},
+                {"option": "3) брыжейка поперечной ободочной кишки",      "correct": false},
+                {"option": "4) печеночно-двенадцатиперстная связка",     "correct": true},
+	{"option": "5) хвостатая доля печени",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЗАДНЕЙ  СТЕНКОЙ  САЛЬНИКОВОГО  ОТВЕРСТИЯ  ЯВЛЯЕТСЯ",
+            "a": [
+                {"option": "1) париетальная брюшина, покрывающая нижнюю полую вену",      "correct": true},
+                {"option": "2) почечно-двенадцатиперстная связка",     "correct": false},
+                {"option": "3) брыжейка поперечной ободочной кишки",      "correct": false},
+                {"option": "4) печеночно-двенадцатиперстная связка",     "correct": false},
+	{"option": "5) хвостатая доля печени",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "СТЕНКАМИ МАЛОГО САЛЬНИКА ЯВЛЯЮТСЯ СВЯЗКИ",
+            "a": [
+                {"option": "1) печеночно-почечная, почечно-желудочная, печеночно-двенадцатиперстная",      "correct": false},
+                {"option": "2) печеночно-диафрагмальная, желудочно-диафрагмальная, печеночно-двенадцатиперстная",     "correct": false},
+                {"option": "3) печеночно-почечная, желудочно-диафрагмальная, печеночно-двенадцатиперстная",      "correct": false},
+                {"option": "4) печеночно-диафрагмальная, печеночно-желудочная, печеночно-двенадцатиперстная",     "correct": true},
+	{"option": "5) печеночно-двенадцатиперстная, желудочно-диафрагмальная, желудочно-двенадцатиперстная",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРАВУЮ ЖЕЛУДОЧНО-САЛЬНИКОВУЮ АРТЕРИЮ СОДЕРЖИТ СВЯЗКА ЖЕЛУДКА",
+            "a": [
+                {"option": "1) желудочно-селезеночная",      "correct": false},
+                {"option": "2) желудочно-печеночная",     "correct": false},
+                {"option": "3) желудочно-поджелудочная",      "correct": false},
+                {"option": "4) желудочно-двенадцатиперстная",     "correct": false},
+	{"option": "5) желудочно-ободочная",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "НАЧАЛО СТВОЛА ЛЕВОЙ ЖЕЛУДОЧНОЙ АРТЕРИИ СОДЕРЖИТ СВЯЗКА ЖЕЛУДКА",
+            "a": [
+                {"option": "1) желудочно-печеночная",      "correct": false},
+                {"option": "2) желудочно-пищеводная",     "correct": false},
+                {"option": "3) желудочно-селезеночная",      "correct": false},
+                {"option": "4) желудочно-поджелудочная",     "correct": true},
+	{"option": "5) желудочно-ободочная",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРАВАЯ  ЖЕЛУДОЧНАЯ АРТЕРИЯ БЕРЕТ НАЧАЛО ОТ",
+            "a": [
+                {"option": "1) чревного ствола",      "correct": false},
+                {"option": "2) левой желудочной артерии",     "correct": false},
+                {"option": "3) общей печеночной артерии",      "correct": true},
+                {"option": "4) собственной печеночной артерии",     "correct": false},
+	{"option": "5) селезеночной артерии",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛЕВАЯ  ЖЕЛУДОЧНАЯ АРТЕРИЯ БЕРЕТ НАЧАЛО ОТ",
+            "a": [
+                {"option": "1) общей печеночной артерии",      "correct": false},
+                {"option": "2) чревного ствола",     "correct": true},
+                {"option": "3) верхней брыжеечной артерии",      "correct": false},
+                {"option": "4) селезеночной артерии",     "correct": false},
+	{"option": "5) левой желудочно-сальниковой артерии",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРАВАЯ  ЖЕЛУДОЧНО-САЛЬНИКОВАЯ АРТЕРИЯ БЕРЕТ НАЧАЛО ОТ",
+            "a": [
+                {"option": "1) собственной печеночной артерии",      "correct": false},
+                {"option": "2) общей печеночной артерии",     "correct": false},
+                {"option": "3) двенадцатиперстно-поджелудочной артерии",      "correct": false},
+                {"option": "4) верхней брыжеечной артерии",     "correct": false},
+	{"option": "5) гастродуоденальной",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЛЕВАЯ  ЖЕЛУДОЧНО-САЛЬНИКОВАЯ АРТЕРИЯ БЕРЕТ НАЧАЛО ОТ",
+            "a": [
+                {"option": "1) левой желудочной артерии",      "correct": false},
+                {"option": "2) чревного ствола",     "correct": false},
+                {"option": "3) правой желудочной артерии",      "correct": false},
+                {"option": "4) селезеночной артерии",     "correct": true},
+	{"option": "5) верхней брыжеечной артерии",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "К НИЖНЕЙ ГОРИЗОНТАЛЬНОЙ ЧАСТИ ДВЕНАДЦАТИПЕРСТНОЙ КИШКИ ПРИЛЕЖИТ",
+            "a": [
+                {"option": "1) нижний полюс правой почки",      "correct": true},
+                {"option": "2) тощая кишка",     "correct": false},
+                {"option": "3) подвздошная кишка",      "correct": false},
+                {"option": "4) большой сальник",     "correct": false},
+	{"option": "5) желудочно-ободочная связка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ УШИВАНИИ ПРОБОДНОЙ ЯЗВЫ ЖЕЛУДКА В  ПЕРВЫЙ  РЯД ШВОВ ЗАХВАТЫВАЮТ",
+            "a": [
+                {"option": "1) слизистый и подслизистый слои стенки желудка",      "correct": false},
+                {"option": "2) серозный, мышечный и подслизистый слои стенки желудка в поперечнм направлении к его оси",     "correct": false},
+                {"option": "3) серозный и мышечный слои стенки желудка в продольнм направлении к его оси",      "correct": false},
+                {"option": "4) серозный и мышечный слои стенки желудка в поперечнм направлении к его оси",     "correct": false},
+	{"option": "5) все слои желудка в поперечнм направлении к его оси",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "УШИВАНИЕ ПРОБОДНОЙ ЯЗВЫ ЖЕЛУДКА ПО  ОППЕЛЮ-ПОЛИКАРПОВУ  ПРЕДПОЛАГАЕТ",
+            "a": [
+                {"option": "1) ушивание язвы швом Альберта",      "correct": false},
+                {"option": "2) ушивание язвы кисетным и Z-образным швами",     "correct": false},
+                {"option": "3) ушивание язвы швами Шмидена и Ламбера",      "correct": false},
+                {"option": "4) тампонада перфоративного отверстия большим сальником, который после этого фиксируется вокруг язвы серозно-мышечными швами",     "correct": true},
+	{"option": "5) иссечение краев язвы и ушивание раны желудка в поперечном направлении",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "СЕЛЕКТИВНАЯ  ВАГОТОМИЯ ПРЕДПОЛАГАЕТ ПЕРЕСЕЧЕНИЕ",
+            "a": [
+                {"option": "1) пересечение левого ствола вагуса ниже отхождения его печеночной ветви",      "correct": true},
+                {"option": "2) пересечение ветвей вагуса, отходящих к телу желудка",     "correct": false},
+                {"option": "3) пересечение ветвей вагуса, отходящих к дну и телу желудка",      "correct": false},
+                {"option": "4) пересечение левого ствола вагуса выше отхождения печеночной его ветви",     "correct": false},
+	{"option": "5) пересечение правого ствола вагуса",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "СУПЕРСЕЛЕКТИВНАЯ  ВАГОТОМИЯ ПРЕДПОЛАГАЕТ",
+            "a": [
+                {"option": "1) пересечение левого ствола вагуса ниже отхождения его печеночной ветви",      "correct": false},
+                {"option": "2) пересечение левого ствола вагуса выше отхождения его печеночной ветви",     "correct": false},
+                {"option": "3) пересечение ветвей вагуса, отходящих к дну и телу желудка",      "correct": true},
+                {"option": "4) пересечение правого ствола вагуса",     "correct": false},
+	{"option": "5) пересечение ветви Латарже, идущей к луковичному отделу желудка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ТОТАЛЬНАЯ  ВАГОТОМИЯ ПРИ ЯЗВЕННОЙ БОЛЕЗНИ ЖЕЛУДКА ДОЛЖНА ВСЕГДА СОЧЕТАТЬСЯ С",
+            "a": [
+                {"option": "1) резекцией антрального отдела",      "correct": false},
+                {"option": "2) резекцией пилороантрального отдела",     "correct": false},
+                {"option": "3) дренирующими операциями по Гейнике-Микуличу или Финнею",      "correct": true},
+                {"option": "4) симпатической денервацией печени",     "correct": false},
+	{"option": "5) резекцией 1/2 желудка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ОПЕРАЦИЯ  ГЕЙНИКЕ-МИКУЛИЧА, ДРЕНИРУЮЩАЯ ЖЕЛУДОК, ПРЕДПОЛАГАЕТ",
+            "a": [
+                {"option": "1) продольное рассечение привратникового отдела желудка до слизистой оболочки",      "correct": false},
+                {"option": "2) продольное сквозное рассечение привратникового отдела желудка и наложение спереди и сзади поперечного 2-х рядного кишечного шва",     "correct": false},
+                {"option": "3) продольное рассечение привратникового отдела желудка до слизистой оболочки и поперечное наложение серозно-мышечных швов",      "correct": true},
+                {"option": "4) наложение переднего гастроеюноанастомоза «бок в бок»",     "correct": false},
+	{"option": "5) наложение заднего гастроеюноанастомоза «бок в бок»",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ОПЕРАЦИЯ  ФИННЕЯ, ДРЕНИРУЮЩАЯ ЖЕЛУДОК, ПРЕДПОЛАГАЕТ",
+            "a": [
+                {"option": "1) продольное рассечение привратникового отдела желудка до слизистой оболочки",      "correct": false},
+                {"option": "2) продольное сквозное рассечение привратникового отдела желудка и наложение спереди и сзади поперечного 2-х рядного кишечного шва",     "correct": false},
+                {"option": "3) продольное рассечение привратникового отдела желудка до слизистой оболочки и поперечное наложение серозно-мышечных швов",      "correct": false},
+                {"option": "4) мобилизацию двенадцатиперстной кишки по Кохеру, наложение гастродуоденоанастомоза «бок в бок»",     "correct": true},
+	{"option": "5) наложение заднего гастроеюноанастомоза «бок в бок»",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ ПО  ВИТЦЕЛЮ  ПРОИЗВОДЯТ ОПЕРАТИВНЫЙ ДОСТУП",
+            "a": [
+                {"option": "1) верхнюю срединную лапаротомию",      "correct": false},
+                {"option": "2) Кохера",     "correct": false},
+                {"option": "3) Рио-Бранко",      "correct": false},
+                {"option": "4) Ленандера",     "correct": false},
+	{"option": "5) трансректальный",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ ПО  ВИТЦЕЛЮ  РЕЗИНОВУЮ ТРУБКУ К СТЕНКЕ ЖЕЛУДКА ФИКСИРУЮТ",
+            "a": [
+                {"option": "1) одним кисетным швом",      "correct": false},
+                {"option": "2) двумя кисетными швами",     "correct": false},
+                {"option": "3) тремя кисетными швами",      "correct": false},
+                {"option": "4) узловыми швами",     "correct": true},
+	{"option": "5) П-образными швами",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ ПО  ВИТЦЕЛЮ  КОНЕЦ РЕЗИНОВОЙ ТРУБКИ РАСПОЛАГАЮТ",
+            "a": [
+                {"option": "1) расположение значения не имеет",      "correct": false},
+                {"option": "2) на середине расстояния между малой и большой кривизной желудка в направлении к его пилорическому отделу",     "correct": false},
+                {"option": "3) на середине расстояния между малой и большой кривизной желудка в направлении к его крдиальному отделу",      "correct": true},
+                {"option": "4) по малой кривизне желудка в направлении к его крдиальному отделу",     "correct": false},
+	{"option": "5) по большой кривизне желудка в направлении к его крдиальному отделу",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ ПО  ВИТЦЕЛЮ  ФОРМИРУЮТ СВИЩ",
+            "a": [
+                {"option": "1) трубчатый",      "correct": true},
+                {"option": "2) скрытый",     "correct": false},
+                {"option": "3) внутренний",      "correct": false},
+                {"option": "4) губовидный",     "correct": false},
+	{"option": "5) сквозной",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ ПО  ТОПРОВЕРУ  ПРОИЗВОДЯТ ОПЕРАТИВНЫЙ ДОСТУП",
+            "a": [
+                {"option": "1) трансректальный",      "correct": true},
+                {"option": "2) верхнюю срединную лапаротомию",     "correct": false},
+                {"option": "3) Федорова",      "correct": false},
+                {"option": "4) Ленандера",     "correct": false},
+	{"option": "5) Черни",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ ПО  ТОПРОВЕРУ  РЕЗИНОВУЮ ТРУБКУ В СТЕНКЕ ЖЕЛУДКА ФИКСИРУЮТ",
+            "a": [
+                {"option": "1) одним кисетным швом",      "correct": false},
+                {"option": "2) двумя кисетными швами",     "correct": false},
+                {"option": "3) тремя кисетными швами",      "correct": true},
+                {"option": "4) узловыми швами",     "correct": false},
+	{"option": "5) П-образными швами",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ ПО  ТОПРОВЕРУ  СТЕНКУ ЖЕЛУДКА В ОБЛАСТИ НАИБОЛЕЕ  ГЛУБОКОГО  КИСЕТНОГО ШВА ФИКСИРУЮТ К",
+            "a": [
+                {"option": "1) париетальной брюшине",      "correct": true},
+                {"option": "2) поперечной фасции",     "correct": false},
+                {"option": "3) коже",      "correct": false},
+                {"option": "4) подкожной клетчатке",     "correct": false},
+	{"option": "5) прямой мышце живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ ПО  ТОПРОВЕРУ  СТЕНКУ ЖЕЛУДКА В ОБЛАСТИ МЕЖДУ ГЛУБОКИМ И ПОВЕРХНОСТНЫМ КИСЕТНЫМИ ШВАМИ ФИКСИРУЮТ К",
+            "a": [
+                {"option": "1) париетальной брюшине",      "correct": false},
+                {"option": "2) поперечной фасции",     "correct": false},
+                {"option": "3) коже",      "correct": false},
+                {"option": "4) подкожной клетчатке",     "correct": false},
+	{"option": "5) прямой мышце живота",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ ПО  ТОПРОВЕРУ  СТЕНКУ ЖЕЛУДКА В ОБЛАСТИ НАИБОЛЕЕ  ПОВЕРХНОСТНОГО  КИСЕТНОГО ШВА ФИКСИРУЮТ К",
+            "a": [
+                {"option": "1) париетальной брюшине",      "correct": false},
+                {"option": "2) поперечной фасции",     "correct": false},
+                {"option": "3) коже",      "correct": true},
+                {"option": "4) подкожной клетчатке",     "correct": false},
+	{"option": "5) прямой мышце живота",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ ПО  ТОПРОВЕРУ  ФОРМИРУЮТ СВИЩ",
+            "a": [
+                {"option": "1) трубчатый",      "correct": false},
+                {"option": "2) скрытый",     "correct": false},
+                {"option": "3) внутренний",      "correct": false},
+                {"option": "4) губовидный",     "correct": true},
+	{"option": "5) сквозной",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ ПО  ШТАММУ-КАДЕРУ  ФОРМИРУЮТ СВИЩ",
+            "a": [
+                {"option": "1) трубчатый",      "correct": true},
+                {"option": "2) скрытый",     "correct": false},
+                {"option": "3) внутренний",      "correct": false},
+                {"option": "4) губовидный",     "correct": false},
+	{"option": "5) сквозной",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ МАЛЫХ РАЗМЕРАХ ЖЕЛУДКА У БОЛЬНОГО С НЕПРОХОДИМОСТЬЮ ПИЩЕВОДА ЦЕЛЕСООБРАЗНО ВЫПОЛНИТЬ",
+            "a": [
+                {"option": "1) пилоропластику по Финнею",      "correct": false},
+                {"option": "2) спилоропластику по Гейнике-Микуличу",     "correct": false},
+                {"option": "3) гастростомию по Топроверу",      "correct": false},
+                {"option": "4) гастростомию по Кадеру",     "correct": true},
+	{"option": "5) гастродуоденоанастомоз",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ ГАСТРОСТОМИИ  ГАСТРОПЕКСИЯ  ПОДРАЗУМЕВАЕТ ПОДШИВАНИЕ",
+            "a": [
+                {"option": "1) передней стенки желудка к коже",      "correct": false},
+                {"option": "2) передней стенки желудка к прямой мышце живота",     "correct": false},
+                {"option": "3) передней стенки желудка к париетальной брюшине",      "correct": true},
+                {"option": "4) париетальной брюшины к коже",     "correct": false},
+	{"option": "5) париетальной брюшины к поперечной фасции",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ВОЗМОЖНОСТЬ  САМОСТОЯТЕЛЬНОГО  ЗАКРЫТИЯ ЖЕЛУДОЧНОГО СВИЩА (БЕЗ ДОПОЛНИТЕЛЬНОГО ОПЕРАТИВНОГО ВМЕШАТЕЛЬСТВА) ИМЕТСЯ ПОСЛЕ НАЛОЖЕНИЯ СВИЩА",
+            "a": [
+                {"option": "1) скрытого",      "correct": false},
+                {"option": "2) трубчатого",     "correct": true},
+                {"option": "3) внутреннего",      "correct": false},
+                {"option": "4) сквозного",     "correct": false},
+	{"option": "5) губовидного",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ  ПЕРЕДНЕЙ  ГАСТРОЭНТЕРОСТОМИИ ПОДШИВАЮТ",
+            "a": [
+                {"option": "1) тонкую кишку к задней стенке желудка впереди от поперечной ободочной кишки",      "correct": false},
+                {"option": "2) подвздошную кишку к передней стенке желудка впереди от поперечной ободочной кишки",     "correct": false},
+                {"option": "3) двенадцатиперстную кишку к передней стенке желудка",      "correct": false},
+                {"option": "4) подвздошную кишку к передней стенке желудка позади от поперечной ободочной кишки",     "correct": false},
+	{"option": "5) тонкую кишку к передней стенке желудка впереди от поперечной ободочной кишки",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПРИ  ЗАДНЕЙ  ГАСТРОЭНТЕРОСТОМИИ ПОДШИВАЮТ",
+            "a": [
+                {"option": "1) тонкую кишку к задней стенке желудка впереди от поперечной ободочной кишки",      "correct": false},
+                {"option": "2) тонкую кишку к задней стенке желудка позади от поперечной ободочной кишки",     "correct": true},
+                {"option": "3) двенадцатиперстную кишку к задней стенке желудка",      "correct": false},
+                {"option": "4) подвздошную кишку к передней стенке желудка позади от поперечной ободочной кишки",     "correct": false},
+	{"option": "5) подвздошную кишку к задней стенке желудка позади от поперечной ободочной кишки",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "«ПОРОЧНЫЙ КРУГ» ПОСЛЕ ВЫПОЛНЕНИЯ ГАСТРОЭНТЕРОАНАСТОМОЗА ОБУСЛОВЛЕН",
+            "a": [
+                {"option": "1) тузким диаметром анастомоза или выраженным анастомозитом",      "correct": true},
+                {"option": "2) изоперистальтическим подшиванием кишки к желудку",     "correct": false},
+                {"option": "3) двенадцатиперстную кишку к задней стенке желудка",      "correct": false},
+                {"option": "4) формированием «шпоры» на приводящей петле кишки выше анастомоза",     "correct": false},
+	{"option": "5) наложением дополнительного межкишечного соустья по Брауну",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "«ПОРОЧНЫЙ КРУГ» ПОСЛЕ ВЫПОЛНЕНИЯ ГАСТРОЭНТЕРОАНАСТОМОЗА ОБУСЛОВЛЕН",
+            "a": [
+                {"option": "1) тузким диаметром анастомоза или выраженным анастомозитом",      "correct": true},
+                {"option": "2) изоперистальтическим подшиванием кишки к желудку",     "correct": false},
+                {"option": "3) двенадцатиперстную кишку к задней стенке желудка",      "correct": false},
+                {"option": "4) формированием «шпоры» на приводящей петле кишки выше анастомоза",     "correct": false},
+	{"option": "5) наложением дополнительного межкишечного соустья по Брауну",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ЧТОБЫ ИЗБЕЖАТЬ РАЗВИТИЯ «ПОРОЧНОГО КРУГА» ПОСЛЕ НАЛОЖЕНИЯ ГАСТРОЭНТЕРОАНАСТОМОЗА ВЫПОЛНЯЮТ",
+            "a": [
+                {"option": "1) экономную резекцию желудка",      "correct": false},
+                {"option": "2) гастростомию по Топроверу",     "correct": false},
+                {"option": "3) межкишечное соустье по Брауну",      "correct": true},
+                {"option": "4) резекцию желудка по Бильрот-II",     "correct": false},
+	{"option": "5) пилоропластику по Финнею",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ДЛЯ ПРЕДУПРЕЖДЕНИЯ ЗАТЕКА СОДЕРЖИМОГО ЖЕЛУДКА В ПРИВОДЯЩИЙ ОТДЕЛ ТОЩЕЙ КИШКИ ПРИ РЕЗЕКЦИИ ЖЕЛУДКА ПО СПОСОБУ  ГОФМЕЙСТЕРА-ФИНСТЕРЕРА  НЕОБХОДИМО",
+            "a": [
+                {"option": "1) сочетать «шпору» приводящей петли кишки с её высоким подшиванием к желудку",      "correct": true},
+                {"option": "2) наложить дополнительное межкишечное соустье по Брауну",     "correct": false},
+                {"option": "3) подшить приводящую петлю кишки к желудку выше анастомоза",      "correct": false},
+                {"option": "4) сформировать «шпору» на приводящей петле кишки",     "correct": false},
+	{"option": "5) сформировать соустье, равное диаметру тощей кишки",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ТЕХНИКА РЕЗЕКЦИИ ЖЕЛУДКА ПО СПОСОБУ  ПОЛИА-РАЙХЕЛЬ  ОТЛИЧАЕТСЯ ОТ СПОСОБА  ПОЛИА-БАЛЬФУР  ТОЛЬКО ТЕМ, ЧТО",
+            "a": [
+                {"option": "1) петля тощей кишки подводится к культе желудка впереди поперечной ободочной кишки",      "correct": true},
+                {"option": "2) приводящее колено тощей кишки дополнительно подшивается к культе желудка выше анастомоза",     "correct": false},
+                {"option": "3) на приводящей петле тощей кишки формируется «шпора»",      "correct": false},
+                {"option": "4) тощую кишку анастомозируют с гофрированной культей желудка",     "correct": false},
+	{"option": "5) формируется гастродуоденоанатомоз «конец в бок»",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "РЕЗЕКЦИЯ ЖЕЛУДКА ПО  БИЛЬРОТ-I  ПРЕДПОЛАГАЕТ СЛЕДУЮЩУЮ РЕКОНСТРУКЦИЮ",
+            "a": [
+                {"option": "1) гастродуоденоанастомоз «конец в конец» после формирования просвета культи желудка",      "correct": true},
+                {"option": "2) гастродуоденоанастомоз «конец в конец» после инверсии двенадцатиперстной кишки (антиперистальтическое подшивание), далее – дуоденодуоденоанастомоз",     "correct": false},
+                {"option": "3) передний гастроеюноанастомоз «конец в бок» со сформированным просветом культи желудка и формированием культи двенадцатиперстной кишки",      "correct": false},
+                {"option": "4) передний гастродуоденоанастомоз «конец в бок» с образовавшимся просветом культи желудка и формированием культи двенадцатиперстной кишки",     "correct": false},
+	{"option": "5) передний гастроеюноанастомоз «бок в бок» после формирования культей двенадцатиперстной кишки и желудка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "РЕЗЕКЦИЯ ЖЕЛУДКА ПО  БИЛЬРОТ-II  ПРЕДПОЛАГАЕТ СЛЕДУЮЩУЮ РЕКОНСТРУКЦИЮ",
+            "a": [
+                {"option": "1) передний гастроеюноанастомоз «конец в бок» со сформированным просветом культи желудка (после зашивания части культи) и формированием культи двенадцатиперстной кишки",      "correct": false},
+                {"option": "2) передний гастроеюноанастомоз «конец в бок» с образовавшимся после резекции просветом культи желудка и формированием культи двенадцатиперстной кишки",     "correct": false},
+                {"option": "3) передний гастроеюноанастомоз «конец в бок» с гофрированным просветом культи желудка и формированием культи двенадцатиперстной кишки",      "correct": false},
+                {"option": "4) передний гастроеюноанастомоз «бок в бок» после формирования культей двенадцатиперстной кишки и желудка",     "correct": true},
+	{"option": "5) гастродуоденоанастомоз «конец в конец» после формирования просвета культи желудка",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "«ГРЯЗНЫЙ» ЭТАП ОПЕРАЦИИ ПРИ НАЛОЖЕНИИ ГАСТРОЭНТЕРОАНАСТОМОЗА ЗАКАНЧИВАТСЯ ПОСЛЕ",
+            "a": [
+                {"option": "1) наложения серозно-мышечного шва на задние губы анастомоза",      "correct": false},
+                {"option": "2) наложения серозно-мышечного шва на передние губы анастомоза",     "correct": false},
+                {"option": "3) наложения сквозного шва на задние губы анастомоза",      "correct": false},
+                {"option": "4) наложения сквозного шва на передние губы анастомоза",     "correct": true},
+	{"option": "5) после ушивания операционной раны",     "correct": false}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+},
+{
+            "q": "ПОСЛЕ НАЛОЖЕНИЯ СКВОЗНОГО ШВА НА ПЕРЕДНИЕ ГУБЫ ГАСТРОЭНТЕРОАНАСТОМОЗА НЕОБХОДИМО",
+            "a": [
+                {"option": "1) проверить проходимость анастомоза",      "correct": false},
+                {"option": "2) наложения серозно-мышечного шва на передние губы анастомоза",     "correct": false},
+                {"option": "3) накрыть участок анастомоза салфетками, смоченными теплым физиологическим раствором на 20 мин",      "correct": false},
+                {"option": "4) ввести контрастное вещество в брыжеечные сосуды",     "correct": false},
+	{"option": "5) хирургической бригаде обработать руки, сменить инструменты и салфетки",     "correct": true}
+            ],
+            "correct": "<p><span>Верно!</span></p>",
+            "incorrect": "<p><span>Неверно.</span></p>"
+}
+    ]}});
+
 });
